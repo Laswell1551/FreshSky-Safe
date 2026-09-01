@@ -1,0 +1,201 @@
+seed,policy,rank
+0,Conservative-AoI Safe,10.0
+1,Conservative-AoI Safe,10.0
+2,Conservative-AoI Safe,10.0
+3,Conservative-AoI Safe,10.0
+4,Conservative-AoI Safe,10.0
+5,Conservative-AoI Safe,10.0
+6,Conservative-AoI Safe,10.0
+7,Conservative-AoI Safe,10.0
+8,Conservative-AoI Safe,10.0
+9,Conservative-AoI Safe,10.0
+10,Conservative-AoI Safe,10.0
+11,Conservative-AoI Safe,10.0
+12,Conservative-AoI Safe,10.0
+13,Conservative-AoI Safe,10.0
+14,Conservative-AoI Safe,10.0
+15,Conservative-AoI Safe,10.0
+16,Conservative-AoI Safe,10.0
+17,Conservative-AoI Safe,10.0
+18,Conservative-AoI Safe,10.0
+19,Conservative-AoI Safe,10.0
+0,FreshSky-Safe,1.0
+1,FreshSky-Safe,6.0
+2,FreshSky-Safe,6.0
+3,FreshSky-Safe,9.0
+4,FreshSky-Safe,6.0
+5,FreshSky-Safe,3.0
+6,FreshSky-Safe,8.0
+7,FreshSky-Safe,3.0
+8,FreshSky-Safe,8.0
+9,FreshSky-Safe,6.0
+10,FreshSky-Safe,3.0
+11,FreshSky-Safe,7.0
+12,FreshSky-Safe,8.0
+13,FreshSky-Safe,8.0
+14,FreshSky-Safe,7.0
+15,FreshSky-Safe,8.0
+16,FreshSky-Safe,3.0
+17,FreshSky-Safe,6.0
+18,FreshSky-Safe,3.0
+19,FreshSky-Safe,3.0
+0,Ji'24-style Greedy-Safe,6.0
+1,Ji'24-style Greedy-Safe,7.0
+2,Ji'24-style Greedy-Safe,5.0
+3,Ji'24-style Greedy-Safe,6.0
+4,Ji'24-style Greedy-Safe,9.0
+5,Ji'24-style Greedy-Safe,4.0
+6,Ji'24-style Greedy-Safe,9.0
+7,Ji'24-style Greedy-Safe,8.0
+8,Ji'24-style Greedy-Safe,9.0
+9,Ji'24-style Greedy-Safe,8.0
+10,Ji'24-style Greedy-Safe,6.0
+11,Ji'24-style Greedy-Safe,4.0
+12,Ji'24-style Greedy-Safe,9.0
+13,Ji'24-style Greedy-Safe,7.0
+14,Ji'24-style Greedy-Safe,6.0
+15,Ji'24-style Greedy-Safe,5.0
+16,Ji'24-style Greedy-Safe,6.0
+17,Ji'24-style Greedy-Safe,9.0
+18,Ji'24-style Greedy-Safe,9.0
+19,Ji'24-style Greedy-Safe,6.0
+0,Known-Transition Safe,2.0
+1,Known-Transition Safe,8.0
+2,Known-Transition Safe,4.0
+3,Known-Transition Safe,7.0
+4,Known-Transition Safe,1.0
+5,Known-Transition Safe,9.0
+6,Known-Transition Safe,5.0
+7,Known-Transition Safe,7.0
+8,Known-Transition Safe,5.0
+9,Known-Transition Safe,9.0
+10,Known-Transition Safe,4.0
+11,Known-Transition Safe,2.0
+12,Known-Transition Safe,4.0
+13,Known-Transition Safe,9.0
+14,Known-Transition Safe,4.0
+15,Known-Transition Safe,2.0
+16,Known-Transition Safe,2.0
+17,Known-Transition Safe,8.0
+18,Known-Transition Safe,6.0
+19,Known-Transition Safe,5.0
+0,Max-Age-First Safe,9.0
+1,Max-Age-First Safe,2.0
+2,Max-Age-First Safe,7.0
+3,Max-Age-First Safe,5.0
+4,Max-Age-First Safe,8.0
+5,Max-Age-First Safe,7.0
+6,Max-Age-First Safe,6.0
+7,Max-Age-First Safe,6.0
+8,Max-Age-First Safe,6.0
+9,Max-Age-First Safe,7.0
+10,Max-Age-First Safe,9.0
+11,Max-Age-First Safe,8.0
+12,Max-Age-First Safe,7.0
+13,Max-Age-First Safe,5.0
+14,Max-Age-First Safe,9.0
+15,Max-Age-First Safe,3.0
+16,Max-Age-First Safe,9.0
+17,Max-Age-First Safe,3.0
+18,Max-Age-First Safe,7.0
+19,Max-Age-First Safe,8.0
+0,Round-Robin Safe,7.0
+1,Round-Robin Safe,9.0
+2,Round-Robin Safe,9.0
+3,Round-Robin Safe,8.0
+4,Round-Robin Safe,5.0
+5,Round-Robin Safe,8.0
+6,Round-Robin Safe,4.0
+7,Round-Robin Safe,9.0
+8,Round-Robin Safe,7.0
+9,Round-Robin Safe,5.0
+10,Round-Robin Safe,2.0
+11,Round-Robin Safe,9.0
+12,Round-Robin Safe,6.0
+13,Round-Robin Safe,3.0
+14,Round-Robin Safe,3.0
+15,Round-Robin Safe,4.0
+16,Round-Robin Safe,5.0
+17,Round-Robin Safe,7.0
+18,Round-Robin Safe,4.0
+19,Round-Robin Safe,4.0
+0,Static-Geometry Safe,4.0
+1,Static-Geometry Safe,5.0
+2,Static-Geometry Safe,2.0
+3,Static-Geometry Safe,3.0
+4,Static-Geometry Safe,3.0
+5,Static-Geometry Safe,6.0
+6,Static-Geometry Safe,7.0
+7,Static-Geometry Safe,5.0
+8,Static-Geometry Safe,4.0
+9,Static-Geometry Safe,1.0
+10,Static-Geometry Safe,1.0
+11,Static-Geometry Safe,5.0
+12,Static-Geometry Safe,5.0
+13,Static-Geometry Safe,6.0
+14,Static-Geometry Safe,8.0
+15,Static-Geometry Safe,7.0
+16,Static-Geometry Safe,1.0
+17,Static-Geometry Safe,2.0
+18,Static-Geometry Safe,8.0
+19,Static-Geometry Safe,2.0
+0,Tripathi'24 Whittle-Safe,8.0
+1,Tripathi'24 Whittle-Safe,1.0
+2,Tripathi'24 Whittle-Safe,1.0
+3,Tripathi'24 Whittle-Safe,1.0
+4,Tripathi'24 Whittle-Safe,7.0
+5,Tripathi'24 Whittle-Safe,5.0
+6,Tripathi'24 Whittle-Safe,2.0
+7,Tripathi'24 Whittle-Safe,1.0
+8,Tripathi'24 Whittle-Safe,3.0
+9,Tripathi'24 Whittle-Safe,4.0
+10,Tripathi'24 Whittle-Safe,8.0
+11,Tripathi'24 Whittle-Safe,6.0
+12,Tripathi'24 Whittle-Safe,1.0
+13,Tripathi'24 Whittle-Safe,1.0
+14,Tripathi'24 Whittle-Safe,5.0
+15,Tripathi'24 Whittle-Safe,1.0
+16,Tripathi'24 Whittle-Safe,8.0
+17,Tripathi'24 Whittle-Safe,1.0
+18,Tripathi'24 Whittle-Safe,5.0
+19,Tripathi'24 Whittle-Safe,1.0
+0,Wang'26 PORMAB-Safe,3.0
+1,Wang'26 PORMAB-Safe,3.0
+2,Wang'26 PORMAB-Safe,8.0
+3,Wang'26 PORMAB-Safe,4.0
+4,Wang'26 PORMAB-Safe,2.0
+5,Wang'26 PORMAB-Safe,1.0
+6,Wang'26 PORMAB-Safe,1.0
+7,Wang'26 PORMAB-Safe,2.0
+8,Wang'26 PORMAB-Safe,2.0
+9,Wang'26 PORMAB-Safe,2.0
+10,Wang'26 PORMAB-Safe,7.0
+11,Wang'26 PORMAB-Safe,1.0
+12,Wang'26 PORMAB-Safe,2.0
+13,Wang'26 PORMAB-Safe,2.0
+14,Wang'26 PORMAB-Safe,2.0
+15,Wang'26 PORMAB-Safe,6.0
+16,Wang'26 PORMAB-Safe,7.0
+17,Wang'26 PORMAB-Safe,5.0
+18,Wang'26 PORMAB-Safe,2.0
+19,Wang'26 PORMAB-Safe,9.0
+0,Zhao'25 MMSE-MW-Safe,5.0
+1,Zhao'25 MMSE-MW-Safe,4.0
+2,Zhao'25 MMSE-MW-Safe,3.0
+3,Zhao'25 MMSE-MW-Safe,2.0
+4,Zhao'25 MMSE-MW-Safe,4.0
+5,Zhao'25 MMSE-MW-Safe,2.0
+6,Zhao'25 MMSE-MW-Safe,3.0
+7,Zhao'25 MMSE-MW-Safe,4.0
+8,Zhao'25 MMSE-MW-Safe,1.0
+9,Zhao'25 MMSE-MW-Safe,3.0
+10,Zhao'25 MMSE-MW-Safe,5.0
+11,Zhao'25 MMSE-MW-Safe,3.0
+12,Zhao'25 MMSE-MW-Safe,3.0
+13,Zhao'25 MMSE-MW-Safe,4.0
+14,Zhao'25 MMSE-MW-Safe,1.0
+15,Zhao'25 MMSE-MW-Safe,9.0
+16,Zhao'25 MMSE-MW-Safe,4.0
+17,Zhao'25 MMSE-MW-Safe,4.0
+18,Zhao'25 MMSE-MW-Safe,1.0
+19,Zhao'25 MMSE-MW-Safe,7.0

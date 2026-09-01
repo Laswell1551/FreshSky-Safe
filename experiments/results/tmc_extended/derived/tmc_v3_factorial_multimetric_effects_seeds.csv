@@ -1,0 +1,701 @@
+seed,effect,metric,metric_label,unit,effect_value
+0,Expected age,wAoI,W-AoI,relative_pct,-38.810608834895575
+0,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-23.62204724409449
+0,Expected age,worst_user_mean_aoi,worst user,relative_pct,-32.77891679838777
+0,Expected age,max_avg_power,max power,relative_pct,14.21234666366975
+0,Expected age,rejection_rate,rejection,percentage_points,1.5180180180180174
+0,Bayesian belief,wAoI,W-AoI,relative_pct,-3.263983504798199
+0,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,-1.5748031496062993
+0,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-8.084949973935293
+0,Bayesian belief,max_avg_power,max power,relative_pct,5.600239735233445
+0,Bayesian belief,rejection_rate,rejection,percentage_points,-0.45945945945945754
+0,Safety shield,wAoI,W-AoI,relative_pct,1.0501418196127372
+0,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,8.661417322834646
+0,Safety shield,worst_user_mean_aoi,worst user,relative_pct,7.1133584057624635
+0,Safety shield,max_avg_power,max power,relative_pct,-0.04467224033730396
+0,Safety shield,rejection_rate,rejection,percentage_points,3.3108108108108074
+0,Belief × age,wAoI,W-AoI,relative_pct,4.195790675616352
+0,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,3.1496062992125986
+0,Belief × age,worst_user_mean_aoi,worst user,relative_pct,3.7446525428111164
+0,Belief × age,max_avg_power,max power,relative_pct,-5.729438979300793
+0,Belief × age,rejection_rate,rejection,percentage_points,-0.009009009009007356
+0,Belief × shield,wAoI,W-AoI,relative_pct,-2.3470747856783856
+0,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-3.937007874015748
+0,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-3.793288024071764
+0,Belief × shield,max_avg_power,max power,relative_pct,-0.5163671600084021
+0,Belief × shield,rejection_rate,rejection,percentage_points,-0.45945945945945754
+0,Age × shield,wAoI,W-AoI,relative_pct,-0.6753775222168943
+0,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-0.7874015748031497
+0,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-1.944580707646252
+0,Age × shield,max_avg_power,max power,relative_pct,-1.3765194444035767
+0,Age × shield,rejection_rate,rejection,percentage_points,1.5180180180180174
+0,Three-way,wAoI,W-AoI,relative_pct,-0.15725827546441695
+0,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-2.3622047244094486
+0,Three-way,worst_user_mean_aoi,worst user,relative_pct,-0.9618085690686833
+0,Three-way,max_avg_power,max power,relative_pct,0.5163671600083873
+0,Three-way,rejection_rate,rejection,percentage_points,-0.009009009009007356
+1,Expected age,wAoI,W-AoI,relative_pct,-28.971926702863
+1,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-15.10015408320493
+1,Expected age,worst_user_mean_aoi,worst user,relative_pct,-18.185257989793
+1,Expected age,max_avg_power,max power,relative_pct,5.577090914849287
+1,Expected age,rejection_rate,rejection,percentage_points,3.2702702702702675
+1,Bayesian belief,wAoI,W-AoI,relative_pct,-0.15660959077685532
+1,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,12.01848998459168
+1,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,5.959467316370877
+1,Bayesian belief,max_avg_power,max power,relative_pct,2.0739267265292716
+1,Bayesian belief,rejection_rate,rejection,percentage_points,-0.3828828828828824
+1,Safety shield,wAoI,W-AoI,relative_pct,3.444208334395201
+1,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,11.40215716486903
+1,Safety shield,worst_user_mean_aoi,worst user,relative_pct,10.044574877488305
+1,Safety shield,max_avg_power,max power,relative_pct,-3.1441055192757146
+1,Safety shield,rejection_rate,rejection,percentage_points,8.905405405405403
+1,Belief × age,wAoI,W-AoI,relative_pct,1.0626154878329162
+1,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-3.389830508474576
+1,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-0.021687569792435454
+1,Belief × age,max_avg_power,max power,relative_pct,-0.9366632883410186
+1,Belief × age,rejection_rate,rejection,percentage_points,0.3513513513513519
+1,Belief × shield,wAoI,W-AoI,relative_pct,2.065475820609685
+1,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,2.157164869029276
+1,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,6.831584484620277
+1,Belief × shield,max_avg_power,max power,relative_pct,0.5106133719231943
+1,Belief × shield,rejection_rate,rejection,percentage_points,-0.3828828828828824
+1,Age × shield,wAoI,W-AoI,relative_pct,2.6444261881519995
+1,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,4.622496147919877
+1,Age × shield,worst_user_mean_aoi,worst user,relative_pct,5.944239873750652
+1,Age × shield,max_avg_power,max power,relative_pct,1.8730463824770585
+1,Age × shield,rejection_rate,rejection,percentage_points,3.2702702702702675
+1,Three-way,wAoI,W-AoI,relative_pct,-1.5671382154375542
+1,Three-way,p99_slot_aoi,p99 AoI,relative_pct,2.773497688751926
+1,Three-way,worst_user_mean_aoi,worst user,relative_pct,-0.1850364997185217
+1,Three-way,max_avg_power,max power,relative_pct,-1.246489714280293
+1,Three-way,rejection_rate,rejection,percentage_points,0.3513513513513519
+2,Expected age,wAoI,W-AoI,relative_pct,-33.07987124207676
+2,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-22.794117647058822
+2,Expected age,worst_user_mean_aoi,worst user,relative_pct,-25.7523938609662
+2,Expected age,max_avg_power,max power,relative_pct,11.382596192511716
+2,Expected age,rejection_rate,rejection,percentage_points,1.8513513513513502
+2,Bayesian belief,wAoI,W-AoI,relative_pct,-0.27928919717891815
+2,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,2.2058823529411766
+2,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-6.485128558659094
+2,Bayesian belief,max_avg_power,max power,relative_pct,2.740263002920219
+2,Bayesian belief,rejection_rate,rejection,percentage_points,-0.3468468468468454
+2,Safety shield,wAoI,W-AoI,relative_pct,1.171178354000297
+2,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,5.882352941176471
+2,Safety shield,worst_user_mean_aoi,worst user,relative_pct,1.7631903345855262
+2,Safety shield,max_avg_power,max power,relative_pct,-2.29119417724123
+2,Safety shield,rejection_rate,rejection,percentage_points,4.130630630630625
+2,Belief × age,wAoI,W-AoI,relative_pct,2.7509682126767294
+2,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,5.882352941176471
+2,Belief × age,worst_user_mean_aoi,worst user,relative_pct,9.208083333820179
+2,Belief × age,max_avg_power,max power,relative_pct,-3.5692642575223377
+2,Belief × age,rejection_rate,rejection,percentage_points,-0.05855855855856004
+2,Belief × shield,wAoI,W-AoI,relative_pct,-0.6075772097584635
+2,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-3.676470588235294
+2,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-7.629741714232304
+2,Belief × shield,max_avg_power,max power,relative_pct,-0.18098003773705912
+2,Belief × shield,rejection_rate,rejection,percentage_points,-0.3468468468468454
+2,Age × shield,wAoI,W-AoI,relative_pct,0.4661300920574189
+2,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-0.7352941176470589
+2,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-1.6472801416160745
+2,Age × shield,max_avg_power,max power,relative_pct,0.16659012768695614
+2,Age × shield,rejection_rate,rejection,percentage_points,1.8513513513513502
+2,Three-way,wAoI,W-AoI,relative_pct,0.6820543290061846
+2,Three-way,p99_slot_aoi,p99 AoI,relative_pct,7.352941176470588
+2,Three-way,worst_user_mean_aoi,worst user,relative_pct,6.392119976397317
+2,Three-way,max_avg_power,max power,relative_pct,0.5132456065183959
+2,Three-way,rejection_rate,rejection,percentage_points,-0.05855855855856004
+3,Expected age,wAoI,W-AoI,relative_pct,-28.84178709550758
+3,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-25.974025974025974
+3,Expected age,worst_user_mean_aoi,worst user,relative_pct,-27.225699726832016
+3,Expected age,max_avg_power,max power,relative_pct,5.073201473719422
+3,Expected age,rejection_rate,rejection,percentage_points,1.53828828828829
+3,Bayesian belief,wAoI,W-AoI,relative_pct,1.6792020373182845
+3,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,12.987012987012987
+3,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,13.791047780526242
+3,Bayesian belief,max_avg_power,max power,relative_pct,1.222182272729683
+3,Bayesian belief,rejection_rate,rejection,percentage_points,-0.020270270270270063
+3,Safety shield,wAoI,W-AoI,relative_pct,-0.9069116994889717
+3,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,5.8441558441558445
+3,Safety shield,worst_user_mean_aoi,worst user,relative_pct,1.829464206219253
+3,Safety shield,max_avg_power,max power,relative_pct,-0.7479256456147999
+3,Safety shield,rejection_rate,rejection,percentage_points,7.804054054054049
+3,Belief × age,wAoI,W-AoI,relative_pct,0.27755543897916923
+3,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-3.896103896103896
+3,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-3.0996888955987334
+3,Belief × age,max_avg_power,max power,relative_pct,-0.944576119216987
+3,Belief × age,rejection_rate,rejection,percentage_points,0.1193693693693697
+3,Belief × shield,wAoI,W-AoI,relative_pct,1.5903173487993665
+3,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,1.948051948051948
+3,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,3.2896290360667013
+3,Belief × shield,max_avg_power,max power,relative_pct,-0.4577020427274497
+3,Belief × shield,rejection_rate,rejection,percentage_points,-0.020270270270270063
+3,Age × shield,wAoI,W-AoI,relative_pct,0.39042984383196355
+3,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-3.2467532467532467
+3,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-2.9618790654222527
+3,Age × shield,max_avg_power,max power,relative_pct,-0.2517018866421214
+3,Age × shield,rejection_rate,rejection,percentage_points,1.53828828828829
+3,Three-way,wAoI,W-AoI,relative_pct,0.6874336900529722
+3,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-0.6493506493506493
+3,Three-way,worst_user_mean_aoi,worst user,relative_pct,-0.2144568705555337
+3,Three-way,max_avg_power,max power,relative_pct,0.9947393090733188
+3,Three-way,rejection_rate,rejection,percentage_points,0.1193693693693697
+4,Expected age,wAoI,W-AoI,relative_pct,-31.12138559166016
+4,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-20.30075187969925
+4,Expected age,worst_user_mean_aoi,worst user,relative_pct,-29.33074256679657
+4,Expected age,max_avg_power,max power,relative_pct,5.780333598139139
+4,Expected age,rejection_rate,rejection,percentage_points,1.1058558558558576
+4,Bayesian belief,wAoI,W-AoI,relative_pct,-0.11912000873132773
+4,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,4.511278195488722
+4,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-1.7105518117424123
+4,Bayesian belief,max_avg_power,max power,relative_pct,0.770748588344071
+4,Bayesian belief,rejection_rate,rejection,percentage_points,-0.6328828828828826
+4,Safety shield,wAoI,W-AoI,relative_pct,-0.4102516128335871
+4,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,3.007518796992481
+4,Safety shield,worst_user_mean_aoi,worst user,relative_pct,1.050659891919819
+4,Safety shield,max_avg_power,max power,relative_pct,-1.8660787619256562
+4,Safety shield,rejection_rate,rejection,percentage_points,3.164414414414408
+4,Belief × age,wAoI,W-AoI,relative_pct,2.5873700648011884
+4,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,0.7518796992481203
+4,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-1.0522746356061732
+4,Belief × age,max_avg_power,max power,relative_pct,-0.4830215019397299
+4,Belief × age,rejection_rate,rejection,percentage_points,0.2274774774774774
+4,Belief × shield,wAoI,W-AoI,relative_pct,-1.4505247780892168
+4,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-1.5037593984962405
+4,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,2.4662518569552323
+4,Belief × shield,max_avg_power,max power,relative_pct,0.9637194642817235
+4,Belief × shield,rejection_rate,rejection,percentage_points,-0.6328828828828826
+4,Age × shield,wAoI,W-AoI,relative_pct,1.5621368201002468
+4,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,2.255639097744361
+4,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-1.4021357676491428
+4,Age × shield,max_avg_power,max power,relative_pct,1.1377616713912093
+4,Age × shield,rejection_rate,rejection,percentage_points,1.1058558558558576
+4,Three-way,wAoI,W-AoI,relative_pct,0.8150341636472921
+4,Three-way,p99_slot_aoi,p99 AoI,relative_pct,0.7518796992481203
+4,Three-way,worst_user_mean_aoi,worst user,relative_pct,1.3332400370314574
+4,Three-way,max_avg_power,max power,relative_pct,-0.5647351759117696
+4,Three-way,rejection_rate,rejection,percentage_points,0.2274774774774774
+5,Expected age,wAoI,W-AoI,relative_pct,-34.61773623792598
+5,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-25.270758122743683
+5,Expected age,worst_user_mean_aoi,worst user,relative_pct,-27.513416988884106
+5,Expected age,max_avg_power,max power,relative_pct,9.755365297347042
+5,Expected age,rejection_rate,rejection,percentage_points,1.114864864864865
+5,Bayesian belief,wAoI,W-AoI,relative_pct,-1.275046534259696
+5,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,3.6101083032490973
+5,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-1.5543865931736724
+5,Bayesian belief,max_avg_power,max power,relative_pct,3.1190945964397905
+5,Bayesian belief,rejection_rate,rejection,percentage_points,-0.5247747747747747
+5,Safety shield,wAoI,W-AoI,relative_pct,-0.48488933160071485
+5,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,7.2202166064981945
+5,Safety shield,worst_user_mean_aoi,worst user,relative_pct,4.995620423826833
+5,Safety shield,max_avg_power,max power,relative_pct,-2.9295227549805958
+5,Safety shield,rejection_rate,rejection,percentage_points,2.8400900900900847
+5,Belief × age,wAoI,W-AoI,relative_pct,0.6609663175880504
+5,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-5.054151624548736
+5,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-6.751806272714511
+5,Belief × age,max_avg_power,max power,relative_pct,-2.5417139545951644
+5,Belief × age,rejection_rate,rejection,percentage_points,-0.2950450450450449
+5,Belief × shield,wAoI,W-AoI,relative_pct,0.11811440208624062
+5,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-1.444043321299639
+5,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-2.154945049627141
+5,Belief × shield,max_avg_power,max power,relative_pct,0.8057741609351509
+5,Belief × shield,rejection_rate,rejection,percentage_points,-0.5247747747747747
+5,Age × shield,wAoI,W-AoI,relative_pct,0.7742331294739273
+5,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-4.332129963898917
+5,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-4.3113418924608435
+5,Age × shield,max_avg_power,max power,relative_pct,2.487692323521938
+5,Age × shield,rejection_rate,rejection,percentage_points,1.114864864864865
+5,Three-way,wAoI,W-AoI,relative_pct,-2.337163972084139
+5,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-4.332129963898917
+5,Three-way,worst_user_mean_aoi,worst user,relative_pct,-3.115064290242504
+5,Three-way,max_avg_power,max power,relative_pct,-0.51364675149727
+5,Three-way,rejection_rate,rejection,percentage_points,-0.2950450450450449
+6,Expected age,wAoI,W-AoI,relative_pct,-41.16403637689165
+6,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-28.571428571428573
+6,Expected age,worst_user_mean_aoi,worst user,relative_pct,-33.0124442357361
+6,Expected age,max_avg_power,max power,relative_pct,24.882237646287244
+6,Expected age,rejection_rate,rejection,percentage_points,0.28153153153153
+6,Bayesian belief,wAoI,W-AoI,relative_pct,1.1175159869805995
+6,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,10.714285714285714
+6,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,6.762802953223224
+6,Bayesian belief,max_avg_power,max power,relative_pct,0.15270427482613208
+6,Bayesian belief,rejection_rate,rejection,percentage_points,-0.056306306306304996
+6,Safety shield,wAoI,W-AoI,relative_pct,0.03999156553726435
+6,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,-1.7857142857142858
+6,Safety shield,worst_user_mean_aoi,worst user,relative_pct,-2.972789648065533
+6,Safety shield,max_avg_power,max power,relative_pct,-1.6552582011933918
+6,Safety shield,rejection_rate,rejection,percentage_points,0.389639639639635
+6,Belief × age,wAoI,W-AoI,relative_pct,2.597472311628225
+6,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,0.0
+6,Belief × age,worst_user_mean_aoi,worst user,relative_pct,3.647830737523163
+6,Belief × age,max_avg_power,max power,relative_pct,0.22293420676566086
+6,Belief × age,rejection_rate,rejection,percentage_points,0.05180180180180002
+6,Belief × shield,wAoI,W-AoI,relative_pct,-0.9497325815679443
+6,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-1.7857142857142858
+6,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-2.5977668205890736
+6,Belief × shield,max_avg_power,max power,relative_pct,0.841374824411132
+6,Belief × shield,rejection_rate,rejection,percentage_points,-0.056306306306304996
+6,Age × shield,wAoI,W-AoI,relative_pct,-0.4084373480291153
+6,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-1.7857142857142858
+6,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-3.3028097362448134
+6,Age × shield,max_avg_power,max power,relative_pct,-0.7237855155547642
+6,Age × shield,rejection_rate,rejection,percentage_points,0.28153153153153
+6,Three-way,wAoI,W-AoI,relative_pct,-0.5013036680015647
+6,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-1.7857142857142858
+6,Three-way,worst_user_mean_aoi,worst user,relative_pct,-2.2677467324097926
+6,Three-way,max_avg_power,max power,relative_pct,-0.09009786122749575
+6,Three-way,rejection_rate,rejection,percentage_points,0.05180180180180002
+7,Expected age,wAoI,W-AoI,relative_pct,-36.93427463691842
+7,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-20.26768642447419
+7,Expected age,worst_user_mean_aoi,worst user,relative_pct,-20.91113477148958
+7,Expected age,max_avg_power,max power,relative_pct,15.307606045519032
+7,Expected age,rejection_rate,rejection,percentage_points,1.772522522522525
+7,Bayesian belief,wAoI,W-AoI,relative_pct,-0.16381717348231753
+7,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,1.9120458891013383
+7,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-1.7337699865151244
+7,Bayesian belief,max_avg_power,max power,relative_pct,3.9683357603055534
+7,Bayesian belief,rejection_rate,rejection,percentage_points,-0.61936936936937
+7,Safety shield,wAoI,W-AoI,relative_pct,2.8282221401668326
+7,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,10.325047801147228
+7,Safety shield,worst_user_mean_aoi,worst user,relative_pct,9.004299242009136
+7,Safety shield,max_avg_power,max power,relative_pct,-2.896520304292824
+7,Safety shield,rejection_rate,rejection,percentage_points,3.4527027027027
+7,Belief × age,wAoI,W-AoI,relative_pct,1.183776490388959
+7,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,0.3824091778202677
+7,Belief × age,worst_user_mean_aoi,worst user,relative_pct,4.218494238646569
+7,Belief × age,max_avg_power,max power,relative_pct,-2.5701995658992445
+7,Belief × age,rejection_rate,rejection,percentage_points,-0.15540540540540487
+7,Belief × shield,wAoI,W-AoI,relative_pct,-1.8978901797546135
+7,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-4.2065009560229445
+7,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-3.961485620552394
+7,Belief × shield,max_avg_power,max power,relative_pct,0.8585352675536573
+7,Belief × shield,rejection_rate,rejection,percentage_points,-0.61936936936937
+7,Age × shield,wAoI,W-AoI,relative_pct,1.1333688288571007
+7,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,7.265774378585086
+7,Age × shield,worst_user_mean_aoi,worst user,relative_pct,7.58959830291257
+7,Age × shield,max_avg_power,max power,relative_pct,1.9436941579626987
+7,Age × shield,rejection_rate,rejection,percentage_points,1.772522522522525
+7,Three-way,wAoI,W-AoI,relative_pct,-0.22430018612357375
+7,Three-way,p99_slot_aoi,p99 AoI,relative_pct,0.3824091778202677
+7,Three-way,worst_user_mean_aoi,worst user,relative_pct,1.007962883710507
+7,Three-way,max_avg_power,max power,relative_pct,0.09429087877646793
+7,Three-way,rejection_rate,rejection,percentage_points,-0.15540540540540487
+8,Expected age,wAoI,W-AoI,relative_pct,-36.6295245932704
+8,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-23.25581395348837
+8,Expected age,worst_user_mean_aoi,worst user,relative_pct,-27.98129928127836
+8,Expected age,max_avg_power,max power,relative_pct,9.233132958379782
+8,Expected age,rejection_rate,rejection,percentage_points,1.8130630630630626
+8,Bayesian belief,wAoI,W-AoI,relative_pct,1.3333354805842894
+8,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,12.522361359570661
+8,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,4.896546911806826
+8,Bayesian belief,max_avg_power,max power,relative_pct,6.847364721831981
+8,Bayesian belief,rejection_rate,rejection,percentage_points,-0.18693693693693747
+8,Safety shield,wAoI,W-AoI,relative_pct,2.2313695112910557
+8,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,12.522361359570661
+8,Safety shield,worst_user_mean_aoi,worst user,relative_pct,14.570776156824248
+8,Safety shield,max_avg_power,max power,relative_pct,-1.5503941698167814
+8,Safety shield,rejection_rate,rejection,percentage_points,4.466216216216212
+8,Belief × age,wAoI,W-AoI,relative_pct,0.9582107387241083
+8,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,2.5044722719141324
+8,Belief × age,worst_user_mean_aoi,worst user,relative_pct,1.5693011773368029
+8,Belief × age,max_avg_power,max power,relative_pct,-6.651574584316376
+8,Belief × age,rejection_rate,rejection,percentage_points,0.25000000000000233
+8,Belief × shield,wAoI,W-AoI,relative_pct,-0.06071352075613236
+8,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-3.2200357781753133
+8,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,3.189613064516519
+8,Belief × shield,max_avg_power,max power,relative_pct,0.9050045763009081
+8,Belief × shield,rejection_rate,rejection,percentage_points,-0.18693693693693747
+8,Age × shield,wAoI,W-AoI,relative_pct,0.1913200601015566
+8,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-0.35778175313059035
+8,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-3.328208200693457
+8,Age × shield,max_avg_power,max power,relative_pct,0.6534209587158232
+8,Age × shield,rejection_rate,rejection,percentage_points,1.8130630630630626
+8,Three-way,wAoI,W-AoI,relative_pct,1.6844110117470685
+8,Three-way,p99_slot_aoi,p99 AoI,relative_pct,8.228980322003578
+8,Three-way,worst_user_mean_aoi,worst user,relative_pct,4.026958678918862
+8,Three-way,max_avg_power,max power,relative_pct,-0.6534209587158232
+8,Three-way,rejection_rate,rejection,percentage_points,0.25000000000000233
+9,Expected age,wAoI,W-AoI,relative_pct,-31.8683072157372
+9,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-18.351477449455675
+9,Expected age,worst_user_mean_aoi,worst user,relative_pct,-19.430168975866472
+9,Expected age,max_avg_power,max power,relative_pct,5.991134167831884
+9,Expected age,rejection_rate,rejection,percentage_points,3.218468468468467
+9,Bayesian belief,wAoI,W-AoI,relative_pct,0.28519884023403996
+9,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,3.421461897356143
+9,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-4.505590333602372
+9,Bayesian belief,max_avg_power,max power,relative_pct,1.392566979095191
+9,Bayesian belief,rejection_rate,rejection,percentage_points,-0.36711711711711753
+9,Safety shield,wAoI,W-AoI,relative_pct,-0.6552714723761939
+9,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,6.531881804043546
+9,Safety shield,worst_user_mean_aoi,worst user,relative_pct,-1.945310589716899
+9,Safety shield,max_avg_power,max power,relative_pct,-4.507071102683308
+9,Safety shield,rejection_rate,rejection,percentage_points,8.394144144144137
+9,Belief × age,wAoI,W-AoI,relative_pct,0.7434342500043319
+9,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,0.3110419906687403
+9,Belief × age,worst_user_mean_aoi,worst user,relative_pct,2.1859318773437346
+9,Belief × age,max_avg_power,max power,relative_pct,-1.8013341344658365
+9,Belief × age,rejection_rate,rejection,percentage_points,0.14189189189189236
+9,Belief × shield,wAoI,W-AoI,relative_pct,-1.2969941196190569
+9,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-3.421461897356143
+9,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,1.7522942330953861
+9,Belief × shield,max_avg_power,max power,relative_pct,2.0693213420877483
+9,Belief × shield,rejection_rate,rejection,percentage_points,-0.36711711711711753
+9,Age × shield,wAoI,W-AoI,relative_pct,3.00627887579325
+9,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,2.177293934681182
+9,Age × shield,worst_user_mean_aoi,worst user,relative_pct,0.7655738449853556
+9,Age × shield,max_avg_power,max power,relative_pct,2.169318102422461
+9,Age × shield,rejection_rate,rejection,percentage_points,3.218468468468467
+9,Three-way,wAoI,W-AoI,relative_pct,3.2586664352777306
+9,Three-way,p99_slot_aoi,p99 AoI,relative_pct,8.398133748055988
+9,Three-way,worst_user_mean_aoi,worst user,relative_pct,4.989429541456324
+9,Three-way,max_avg_power,max power,relative_pct,-1.2200638164916646
+9,Three-way,rejection_rate,rejection,percentage_points,0.14189189189189236
+10,Expected age,wAoI,W-AoI,relative_pct,-26.528139880341154
+10,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-16.793893129770993
+10,Expected age,worst_user_mean_aoi,worst user,relative_pct,-16.485562049952637
+10,Expected age,max_avg_power,max power,relative_pct,4.396578109195893
+10,Expected age,rejection_rate,rejection,percentage_points,2.1666666666666674
+10,Bayesian belief,wAoI,W-AoI,relative_pct,1.7564841559360707
+10,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,9.465648854961833
+10,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,3.955227670695038
+10,Bayesian belief,max_avg_power,max power,relative_pct,2.8634965222717055
+10,Bayesian belief,rejection_rate,rejection,percentage_points,0.06756756756756757
+10,Safety shield,wAoI,W-AoI,relative_pct,0.9215546217432549
+10,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,10.687022900763358
+10,Safety shield,worst_user_mean_aoi,worst user,relative_pct,-1.13807745727793
+10,Safety shield,max_avg_power,max power,relative_pct,-2.6794115407106665
+10,Safety shield,rejection_rate,rejection,percentage_points,8.076576576576572
+10,Belief × age,wAoI,W-AoI,relative_pct,-0.054278218010101624
+10,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-0.916030534351145
+10,Belief × age,worst_user_mean_aoi,worst user,relative_pct,5.5530407248012175
+10,Belief × age,max_avg_power,max power,relative_pct,-2.5141006622559616
+10,Belief × age,rejection_rate,rejection,percentage_points,0.02252252252252264
+10,Belief × shield,wAoI,W-AoI,relative_pct,0.5132021002604451
+10,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,2.1374045801526718
+10,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,3.1726614098116612
+10,Belief × shield,max_avg_power,max power,relative_pct,0.5021276841035357
+10,Belief × shield,rejection_rate,rejection,percentage_points,0.06756756756756757
+10,Age × shield,wAoI,W-AoI,relative_pct,2.0404700145427404
+10,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,3.969465648854962
+10,Age × shield,worst_user_mean_aoi,worst user,relative_pct,1.876480836621634
+10,Age × shield,max_avg_power,max power,relative_pct,2.3300156806949293
+10,Age × shield,rejection_rate,rejection,percentage_points,2.1666666666666674
+10,Three-way,wAoI,W-AoI,relative_pct,0.17343177905806353
+10,Three-way,p99_slot_aoi,p99 AoI,relative_pct,1.5267175572519085
+10,Three-way,worst_user_mean_aoi,worst user,relative_pct,-1.1279199945238052
+10,Three-way,max_avg_power,max power,relative_pct,-0.5720068561066917
+10,Three-way,rejection_rate,rejection,percentage_points,0.02252252252252264
+11,Expected age,wAoI,W-AoI,relative_pct,-32.332964662991905
+11,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-16.25207296849088
+11,Expected age,worst_user_mean_aoi,worst user,relative_pct,-21.32880036927647
+11,Expected age,max_avg_power,max power,relative_pct,11.085497279291756
+11,Expected age,rejection_rate,rejection,percentage_points,1.083333333333335
+11,Bayesian belief,wAoI,W-AoI,relative_pct,-1.3369458236138931
+11,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,7.628524046434494
+11,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-2.352925623622245
+11,Bayesian belief,max_avg_power,max power,relative_pct,1.2929732401733887
+11,Bayesian belief,rejection_rate,rejection,percentage_points,-0.3085585585585599
+11,Safety shield,wAoI,W-AoI,relative_pct,2.3154497750850407
+11,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,6.301824212271973
+11,Safety shield,worst_user_mean_aoi,worst user,relative_pct,3.5378712181386156
+11,Safety shield,max_avg_power,max power,relative_pct,-2.2730236017817
+11,Safety shield,rejection_rate,rejection,percentage_points,2.7004504504504445
+11,Belief × age,wAoI,W-AoI,relative_pct,2.3923019716446174
+11,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,3.648424543946932
+11,Belief × age,worst_user_mean_aoi,worst user,relative_pct,8.517374832134545
+11,Belief × age,max_avg_power,max power,relative_pct,-1.9444716885663036
+11,Belief × age,rejection_rate,rejection,percentage_points,-0.15990990990991
+11,Belief × shield,wAoI,W-AoI,relative_pct,1.0245194563009674
+11,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,2.3217247097844114
+11,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,1.1424215149809192
+11,Belief × shield,max_avg_power,max power,relative_pct,-0.8397270153173242
+11,Belief × shield,rejection_rate,rejection,percentage_points,-0.3085585585585599
+11,Age × shield,wAoI,W-AoI,relative_pct,0.48849555647810866
+11,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,2.3217247097844114
+11,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-1.0829318700349644
+11,Age × shield,max_avg_power,max power,relative_pct,0.7094273256387266
+11,Age × shield,rejection_rate,rejection,percentage_points,1.083333333333335
+11,Three-way,wAoI,W-AoI,relative_pct,-1.0390427060445064
+11,Three-way,p99_slot_aoi,p99 AoI,relative_pct,0.9950248756218906
+11,Three-way,worst_user_mean_aoi,worst user,relative_pct,0.19763782043161246
+11,Three-way,max_avg_power,max power,relative_pct,0.9700267049958924
+11,Three-way,rejection_rate,rejection,percentage_points,-0.15990990990991
+12,Expected age,wAoI,W-AoI,relative_pct,-32.132229361838
+12,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-22.889305816135085
+12,Expected age,worst_user_mean_aoi,worst user,relative_pct,-22.953796808775163
+12,Expected age,max_avg_power,max power,relative_pct,5.747188693920795
+12,Expected age,rejection_rate,rejection,percentage_points,0.673423423423425
+12,Bayesian belief,wAoI,W-AoI,relative_pct,0.24897823908333547
+12,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,10.131332082551594
+12,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,1.4064634735792179
+12,Bayesian belief,max_avg_power,max power,relative_pct,3.1078226259039066
+12,Bayesian belief,rejection_rate,rejection,percentage_points,-0.4166666666666652
+12,Safety shield,wAoI,W-AoI,relative_pct,1.860118184827822
+12,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,4.878048780487805
+12,Safety shield,worst_user_mean_aoi,worst user,relative_pct,2.236818945068582
+12,Safety shield,max_avg_power,max power,relative_pct,-2.186600906396842
+12,Safety shield,rejection_rate,rejection,percentage_points,2.59234234234234
+12,Belief × age,wAoI,W-AoI,relative_pct,1.0705760722623279
+12,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-5.628517823639775
+12,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-0.14081398305202714
+12,Belief × age,max_avg_power,max power,relative_pct,-2.4118511008943435
+12,Belief × age,rejection_rate,rejection,percentage_points,-0.03828828828829006
+12,Belief × shield,wAoI,W-AoI,relative_pct,0.8239655852697694
+12,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,1.125703564727955
+12,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-0.09666991693653255
+12,Belief × shield,max_avg_power,max power,relative_pct,-0.2259014208211115
+12,Belief × shield,rejection_rate,rejection,percentage_points,-0.4166666666666652
+12,Age × shield,wAoI,W-AoI,relative_pct,1.1621291531054698
+12,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,-0.37523452157598497
+12,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-2.2206141613046526
+12,Age × shield,max_avg_power,max power,relative_pct,2.249609827416589
+12,Age × shield,rejection_rate,rejection,percentage_points,0.673423423423425
+12,Three-way,wAoI,W-AoI,relative_pct,-1.085972532011559
+12,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-1.125703564727955
+12,Three-way,worst_user_mean_aoi,worst user,relative_pct,-4.634568156482323
+12,Three-way,max_avg_power,max power,relative_pct,-0.5965668451933452
+12,Three-way,rejection_rate,rejection,percentage_points,-0.03828828828829006
+13,Expected age,wAoI,W-AoI,relative_pct,-39.53697201292185
+13,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-23.7006237006237
+13,Expected age,worst_user_mean_aoi,worst user,relative_pct,-26.31287495380157
+13,Expected age,max_avg_power,max power,relative_pct,16.770963704630983
+13,Expected age,rejection_rate,rejection,percentage_points,0.7387387387387401
+13,Bayesian belief,wAoI,W-AoI,relative_pct,-1.3476716287695278
+13,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,2.9106029106029108
+13,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-6.054512262957008
+13,Bayesian belief,max_avg_power,max power,relative_pct,2.753441802252863
+13,Bayesian belief,rejection_rate,rejection,percentage_points,-0.4099099099099099
+13,Safety shield,wAoI,W-AoI,relative_pct,1.401045750351616
+13,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,7.9002079002079
+13,Safety shield,worst_user_mean_aoi,worst user,relative_pct,6.193885258692466
+13,Safety shield,max_avg_power,max power,relative_pct,-4.6129089933846465
+13,Safety shield,rejection_rate,rejection,percentage_points,1.909909909909905
+13,Belief × age,wAoI,W-AoI,relative_pct,2.5103961066488205
+13,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,3.7422037422037424
+13,Belief × age,worst_user_mean_aoi,worst user,relative_pct,9.40095744270464
+13,Belief × age,max_avg_power,max power,relative_pct,-1.3946003933488442
+13,Belief × age,rejection_rate,rejection,percentage_points,-0.004504504504504979
+13,Belief × shield,wAoI,W-AoI,relative_pct,-0.7284653086084191
+13,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-2.9106029106029108
+13,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-3.936042727778405
+13,Belief × shield,max_avg_power,max power,relative_pct,0.9654925800107387
+13,Belief × shield,rejection_rate,rejection,percentage_points,-0.4099099099099099
+13,Age × shield,wAoI,W-AoI,relative_pct,0.985459209908361
+13,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,3.7422037422037424
+13,Age × shield,worst_user_mean_aoi,worst user,relative_pct,2.4158815528640445
+13,Age × shield,max_avg_power,max power,relative_pct,2.395851957804424
+13,Age × shield,rejection_rate,rejection,percentage_points,0.7387387387387401
+13,Three-way,wAoI,W-AoI,relative_pct,0.6360166743416272
+13,Three-way,p99_slot_aoi,p99 AoI,relative_pct,4.573804573804574
+13,Three-way,worst_user_mean_aoi,worst user,relative_pct,2.5059762393930347
+13,Three-way,max_avg_power,max power,relative_pct,-1.1800464866797935
+13,Three-way,rejection_rate,rejection,percentage_points,-0.004504504504504979
+14,Expected age,wAoI,W-AoI,relative_pct,-33.028098373158
+14,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-21.217391304347824
+14,Expected age,worst_user_mean_aoi,worst user,relative_pct,-21.15411519254514
+14,Expected age,max_avg_power,max power,relative_pct,9.873555621598681
+14,Expected age,rejection_rate,rejection,percentage_points,0.6509009009009024
+14,Bayesian belief,wAoI,W-AoI,relative_pct,-1.499508688167511
+14,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,3.130434782608696
+14,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-4.838111226680774
+14,Bayesian belief,max_avg_power,max power,relative_pct,3.5711129795679155
+14,Bayesian belief,rejection_rate,rejection,percentage_points,-0.7139639639639626
+14,Safety shield,wAoI,W-AoI,relative_pct,0.5407596474580921
+14,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,7.304347826086956
+14,Safety shield,worst_user_mean_aoi,worst user,relative_pct,5.724226443556381
+14,Safety shield,max_avg_power,max power,relative_pct,-1.2163970098720716
+14,Safety shield,rejection_rate,rejection,percentage_points,3.042792792792788
+14,Belief × age,wAoI,W-AoI,relative_pct,1.6633759653790712
+14,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-1.0434782608695652
+14,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-4.214278328254345
+14,Belief × age,max_avg_power,max power,relative_pct,-3.4951543999002848
+14,Belief × age,rejection_rate,rejection,percentage_points,0.3626126126126126
+14,Belief × shield,wAoI,W-AoI,relative_pct,-0.03706070824539537
+14,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-0.34782608695652173
+14,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-1.5895087072620309
+14,Belief × shield,max_avg_power,max power,relative_pct,1.5181118581618207
+14,Belief × shield,rejection_rate,rejection,percentage_points,-0.7139639639639626
+14,Age × shield,wAoI,W-AoI,relative_pct,1.3320904009037091
+14,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,5.913043478260869
+14,Age × shield,worst_user_mean_aoi,worst user,relative_pct,2.6118744791761705
+14,Age × shield,max_avg_power,max power,relative_pct,0.38085263352837345
+14,Age × shield,rejection_rate,rejection,percentage_points,0.6509009009009024
+14,Three-way,wAoI,W-AoI,relative_pct,-1.2674856913529542
+14,Three-way,p99_slot_aoi,p99 AoI,relative_pct,3.8260869565217392
+14,Three-way,worst_user_mean_aoi,worst user,relative_pct,3.3885026428958134
+14,Three-way,max_avg_power,max power,relative_pct,-1.2902361191589937
+14,Three-way,rejection_rate,rejection,percentage_points,0.3626126126126126
+15,Expected age,wAoI,W-AoI,relative_pct,-33.72843145305598
+15,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-20.52980132450331
+15,Expected age,worst_user_mean_aoi,worst user,relative_pct,-28.296696045528115
+15,Expected age,max_avg_power,max power,relative_pct,8.81740038555781
+15,Expected age,rejection_rate,rejection,percentage_points,1.8108108108108103
+15,Bayesian belief,wAoI,W-AoI,relative_pct,-2.4403283565761176
+15,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,-1.9867549668874172
+15,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-4.7627458982277275
+15,Bayesian belief,max_avg_power,max power,relative_pct,-0.7599160696334842
+15,Bayesian belief,rejection_rate,rejection,percentage_points,-0.752252252252255
+15,Safety shield,wAoI,W-AoI,relative_pct,3.2124685955355194
+15,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,18.543046357615893
+15,Safety shield,worst_user_mean_aoi,worst user,relative_pct,12.14258594890473
+15,Safety shield,max_avg_power,max power,relative_pct,-4.127806449244951
+15,Safety shield,rejection_rate,rejection,percentage_points,5.139639639639635
+15,Belief × age,wAoI,W-AoI,relative_pct,2.443762102123061
+15,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,3.9735099337748343
+15,Belief × age,worst_user_mean_aoi,worst user,relative_pct,2.885097587766057
+15,Belief × age,max_avg_power,max power,relative_pct,1.1306102549399122
+15,Belief × age,rejection_rate,rejection,percentage_points,-0.009009009009010131
+15,Belief × shield,wAoI,W-AoI,relative_pct,-0.17001033184754788
+15,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-1.9867549668874172
+15,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,4.1682655507978215
+15,Belief × shield,max_avg_power,max power,relative_pct,0.29283188621252937
+15,Belief × shield,rejection_rate,rejection,percentage_points,-0.752252252252255
+15,Age × shield,wAoI,W-AoI,relative_pct,2.2069135139314997
+15,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,3.3112582781456954
+15,Age × shield,worst_user_mean_aoi,worst user,relative_pct,4.173138340530859
+15,Age × shield,max_avg_power,max power,relative_pct,2.0532862035652673
+15,Age × shield,rejection_rate,rejection,percentage_points,1.8108108108108103
+15,Three-way,wAoI,W-AoI,relative_pct,0.301211353559865
+15,Three-way,p99_slot_aoi,p99 AoI,relative_pct,2.6490066225165565
+15,Three-way,worst_user_mean_aoi,worst user,relative_pct,3.451965460042113
+15,Three-way,max_avg_power,max power,relative_pct,-1.274829679265496
+15,Three-way,rejection_rate,rejection,percentage_points,-0.009009009009010131
+16,Expected age,wAoI,W-AoI,relative_pct,-29.053654918446224
+16,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-10.204081632653061
+16,Expected age,worst_user_mean_aoi,worst user,relative_pct,-15.619802993475751
+16,Expected age,max_avg_power,max power,relative_pct,6.381521552171108
+16,Expected age,rejection_rate,rejection,percentage_points,3.475225225225225
+16,Bayesian belief,wAoI,W-AoI,relative_pct,-0.05109775895558029
+16,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,5.442176870748299
+16,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,2.8262239468584647
+16,Bayesian belief,max_avg_power,max power,relative_pct,2.708070499895836
+16,Bayesian belief,rejection_rate,rejection,percentage_points,0.11936936936936954
+16,Safety shield,wAoI,W-AoI,relative_pct,4.3634186433174325
+16,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,17.687074829931973
+16,Safety shield,worst_user_mean_aoi,worst user,relative_pct,8.491938273184278
+16,Safety shield,max_avg_power,max power,relative_pct,-2.2108426009842663
+16,Safety shield,rejection_rate,rejection,percentage_points,7.619369369369365
+16,Belief × age,wAoI,W-AoI,relative_pct,1.4282505090946027
+16,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-2.0408163265306123
+16,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-5.151166261566663
+16,Belief × age,max_avg_power,max power,relative_pct,-3.313725783404989
+16,Belief × age,rejection_rate,rejection,percentage_points,0.011261261261260452
+16,Belief × shield,wAoI,W-AoI,relative_pct,1.8765813375537812
+16,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,1.3605442176870748
+16,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,4.6906315295723084
+16,Belief × shield,max_avg_power,max power,relative_pct,0.3784698041173608
+16,Belief × shield,rejection_rate,rejection,percentage_points,0.11936936936936954
+16,Age × shield,wAoI,W-AoI,relative_pct,0.8715312195471229
+16,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,3.401360544217687
+16,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-1.7862303905542969
+16,Age × shield,max_avg_power,max power,relative_pct,1.131458322110155
+16,Age × shield,rejection_rate,rejection,percentage_points,3.475225225225225
+16,Three-way,wAoI,W-AoI,relative_pct,-0.2449201427150548
+16,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-0.6802721088435374
+16,Three-way,worst_user_mean_aoi,worst user,relative_pct,-3.9330234673716813
+16,Three-way,max_avg_power,max power,relative_pct,0.24675809453534403
+16,Three-way,rejection_rate,rejection,percentage_points,0.011261261261260452
+17,Expected age,wAoI,W-AoI,relative_pct,-35.53923362881682
+17,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-20.333839150227618
+17,Expected age,worst_user_mean_aoi,worst user,relative_pct,-26.223458349195344
+17,Expected age,max_avg_power,max power,relative_pct,14.741010833481715
+17,Expected age,rejection_rate,rejection,percentage_points,2.4324324324324325
+17,Bayesian belief,wAoI,W-AoI,relative_pct,3.1635304754798637
+17,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,13.050075872534142
+17,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,8.285621540243428
+17,Bayesian belief,max_avg_power,max power,relative_pct,3.327263663593723
+17,Bayesian belief,rejection_rate,rejection,percentage_points,-0.6981981981981976
+17,Safety shield,wAoI,W-AoI,relative_pct,0.4987923842999704
+17,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,6.980273141122914
+17,Safety shield,worst_user_mean_aoi,worst user,relative_pct,0.17147127748257152
+17,Safety shield,max_avg_power,max power,relative_pct,-2.6691942480994335
+17,Safety shield,rejection_rate,rejection,percentage_points,4.612612612612607
+17,Belief × age,wAoI,W-AoI,relative_pct,0.28641334960247916
+17,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,2.731411229135053
+17,Belief × age,worst_user_mean_aoi,worst user,relative_pct,2.8472859547768636
+17,Belief × age,max_avg_power,max power,relative_pct,-3.9316064400348516
+17,Belief × age,rejection_rate,rejection,percentage_points,0.5180180180180177
+17,Belief × shield,wAoI,W-AoI,relative_pct,-0.7522217891276158
+17,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-2.731411229135053
+17,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-4.331644862494061
+17,Belief × shield,max_avg_power,max power,relative_pct,0.2232706262246069
+17,Belief × shield,rejection_rate,rejection,percentage_points,-0.6981981981981976
+17,Age × shield,wAoI,W-AoI,relative_pct,1.870195193681223
+17,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,5.159332321699544
+17,Age × shield,worst_user_mean_aoi,worst user,relative_pct,2.018184582898822
+17,Age × shield,max_avg_power,max power,relative_pct,0.17123318375520957
+17,Age × shield,rejection_rate,rejection,percentage_points,2.4324324324324325
+17,Three-way,wAoI,W-AoI,relative_pct,1.3051586723879398
+17,Three-way,p99_slot_aoi,p99 AoI,relative_pct,8.801213960546283
+17,Three-way,worst_user_mean_aoi,worst user,relative_pct,8.419347567965719
+17,Three-way,max_avg_power,max power,relative_pct,0.22327062622459204
+17,Three-way,rejection_rate,rejection,percentage_points,0.5180180180180177
+18,Expected age,wAoI,W-AoI,relative_pct,-42.26962675909169
+18,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-30.58823529411765
+18,Expected age,worst_user_mean_aoi,worst user,relative_pct,-32.57095787544617
+18,Expected age,max_avg_power,max power,relative_pct,14.05600722673847
+18,Expected age,rejection_rate,rejection,percentage_points,1.531531531531535
+18,Bayesian belief,wAoI,W-AoI,relative_pct,-1.6860058815353005
+18,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,0.0
+18,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-0.9023862279463829
+18,Bayesian belief,max_avg_power,max power,relative_pct,-0.7588075880758527
+18,Bayesian belief,rejection_rate,rejection,percentage_points,-0.5990990990990999
+18,Safety shield,wAoI,W-AoI,relative_pct,1.9800184452035248
+18,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,9.411764705882353
+18,Safety shield,worst_user_mean_aoi,worst user,relative_pct,3.5633145389414262
+18,Safety shield,max_avg_power,max power,relative_pct,-2.2041553748869998
+18,Safety shield,rejection_rate,rejection,percentage_points,2.369369369369365
+18,Belief × age,wAoI,W-AoI,relative_pct,0.5622159668178875
+18,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,-3.1372549019607843
+18,Belief × age,worst_user_mean_aoi,worst user,relative_pct,-2.428754781076204
+18,Belief × age,max_avg_power,max power,relative_pct,1.04787714543807
+18,Belief × age,rejection_rate,rejection,percentage_points,-0.13063063063063
+18,Belief × shield,wAoI,W-AoI,relative_pct,-1.325287552248302
+18,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,-3.9215686274509802
+18,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,-3.1020324761983753
+18,Belief × shield,max_avg_power,max power,relative_pct,0.6865401987352945
+18,Belief × shield,rejection_rate,rejection,percentage_points,-0.5990990990990999
+18,Age × shield,wAoI,W-AoI,relative_pct,0.6084734298865585
+18,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,1.5686274509803921
+18,Age × shield,worst_user_mean_aoi,worst user,relative_pct,-0.5141532626255603
+18,Age × shield,max_avg_power,max power,relative_pct,1.7705510388436587
+18,Age × shield,rejection_rate,rejection,percentage_points,1.531531531531535
+18,Three-way,wAoI,W-AoI,relative_pct,-0.4758965232428488
+18,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-0.7843137254901961
+18,Three-way,worst_user_mean_aoi,worst user,relative_pct,-3.0202992203413714
+18,Three-way,max_avg_power,max power,relative_pct,-0.39747064137306964
+18,Three-way,rejection_rate,rejection,percentage_points,-0.13063063063063
+19,Expected age,wAoI,W-AoI,relative_pct,-31.756277445787468
+19,Expected age,p99_slot_aoi,p99 AoI,relative_pct,-26.85512367491166
+19,Expected age,worst_user_mean_aoi,worst user,relative_pct,-23.405910832896694
+19,Expected age,max_avg_power,max power,relative_pct,6.68548448515349
+19,Expected age,rejection_rate,rejection,percentage_points,0.7184684684684701
+19,Bayesian belief,wAoI,W-AoI,relative_pct,-0.655057214359427
+19,Bayesian belief,p99_slot_aoi,p99 AoI,relative_pct,2.8268551236749118
+19,Bayesian belief,worst_user_mean_aoi,worst user,relative_pct,-0.2291921038842796
+19,Bayesian belief,max_avg_power,max power,relative_pct,5.732956741712405
+19,Bayesian belief,rejection_rate,rejection,percentage_points,0.16441441441441518
+19,Safety shield,wAoI,W-AoI,relative_pct,1.6398204171099504
+19,Safety shield,p99_slot_aoi,p99 AoI,relative_pct,8.480565371024735
+19,Safety shield,worst_user_mean_aoi,worst user,relative_pct,7.831496609917216
+19,Safety shield,max_avg_power,max power,relative_pct,-1.736014796098679
+19,Safety shield,rejection_rate,rejection,percentage_points,4.2635135135135105
+19,Belief × age,wAoI,W-AoI,relative_pct,2.271577891821955
+19,Belief × age,p99_slot_aoi,p99 AoI,relative_pct,3.5335689045936394
+19,Belief × age,worst_user_mean_aoi,worst user,relative_pct,2.9596517828943276
+19,Belief × age,max_avg_power,max power,relative_pct,-6.1905375162480185
+19,Belief × age,rejection_rate,rejection,percentage_points,-0.09234234234234487
+19,Belief × shield,wAoI,W-AoI,relative_pct,0.5237335432383663
+19,Belief × shield,p99_slot_aoi,p99 AoI,relative_pct,0.7067137809187279
+19,Belief × shield,worst_user_mean_aoi,worst user,relative_pct,1.7994121355645891
+19,Belief × shield,max_avg_power,max power,relative_pct,-1.2336670173342243
+19,Belief × shield,rejection_rate,rejection,percentage_points,0.16441441441441518
+19,Age × shield,wAoI,W-AoI,relative_pct,-0.7229727275080116
+19,Age × shield,p99_slot_aoi,p99 AoI,relative_pct,0.7067137809187279
+19,Age × shield,worst_user_mean_aoi,worst user,relative_pct,2.4189810753151466
+19,Age × shield,max_avg_power,max power,relative_pct,0.7834870526575874
+19,Age × shield,rejection_rate,rejection,percentage_points,0.7184684684684701
+19,Three-way,wAoI,W-AoI,relative_pct,-1.63561824744053
+19,Three-way,p99_slot_aoi,p99 AoI,relative_pct,-2.8268551236749118
+19,Three-way,worst_user_mean_aoi,worst user,relative_pct,0.05687449251616655
+19,Three-way,max_avg_power,max power,relative_pct,0.8663361770273555
+19,Three-way,rejection_rate,rejection,percentage_points,-0.09234234234234487

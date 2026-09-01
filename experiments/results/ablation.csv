@@ -1,0 +1,5 @@
+variant,wAoI,power_per_uav_mW,feasible
+Full FreshSky-B,409.7,0.205,True
+$-$ value weight,439.8,0.192,True
+$-$ belief,400.1,0.254,False
+$-$ energy queue,354.8,0.237,False

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying FreshSky-Safe article."
+title: "FreshSky-Safe IoTJ Reproducibility Artifact"
+type: software
+version: 1.0.0
+date-released: 2026-09-01
+license: MIT
+repository-code: "https://github.com/Laswell1551/FreshSky-Safe"
+url: "https://github.com/Laswell1551/FreshSky-Safe"
+authors:
+  - family-names: Lin
+    given-names: Jiaqi
+  - family-names: Yan
+    given-names: Shi
+  - family-names: Peng
+    given-names: Mugen
+abstract: >-
+  Executable simulator, seed-level results, measured-channel replay, figure
+  generators, and claim checks for certified freshness scheduling in aerial IoT
+  networks with hidden channels and delayed feedback.
+keywords:
+  - age of information
+  - aerial Internet of Things
+  - delayed feedback
+  - energy-constrained scheduling
+  - reproducibility

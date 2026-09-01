@@ -1,0 +1,440 @@
+{
+  "figure_outputs": {
+    "fig_mechanism.pdf": "ba884df9fa4a39d3e0726d582883b6611e41466f12372bcbf22a09766750b6d1",
+    "fig_mechanism.png": "e897733bde9c60776535d45de52e1bf0ca2837912e570503bfa4c362eb7ad7e8",
+    "fig_system.pdf": "c05b05786d0ce920e42e9b07e38c722524a36bfe2de07d152cfeebe897de1f35",
+    "fig_system.png": "9d5cd3e3e19c32c7349ce87cc8f6ea7040096b01d58e93890f3c880714f9a213",
+    "fig_tmc_baseline_evidence.pdf": "95070e43e9055af470c9aecb0723067ba4dd9be4456dabd149f3498f61a9a6f0",
+    "fig_tmc_baseline_evidence.png": "319ae0c6b35c62b03ed75900464b7d9de39f914e1a1d23ff7d370654e36465ce",
+    "fig_tmc_baseline_evidence.svg": "0414391f12cebeb7e5f23e96b0a1309becc290706f653df6cba2936501f918a6",
+    "fig_tmc_factorial_effects.pdf": "1f3d3b78e17598600b55ee15d99658c132b2afd7481e9d7b2d45e461375dd503",
+    "fig_tmc_factorial_effects.png": "7700b45e17b524fe6f4d4a6be4431d21bb254ac24a0d8e471f7ed668a9f46be1",
+    "fig_tmc_factorial_effects.svg": "0a36b2de9f07243e4a754fd1e0ffdfaf77b25c2c0dd913778070b630ac0516f3",
+    "fig_tmc_robustness.pdf": "5e59e0eea50c74df014a0522be5e23f8d7fca201add7d037917e9fcb2dc127fc",
+    "fig_tmc_robustness.png": "42e4fa1e2acdc82533f0f944734a29b9d9a1db238b242529a451ec9b7fbeae95",
+    "fig_tmc_robustness.svg": "741e724917d0a2244375629065d72d58ebbbadbd482b0314dcdd947fda978054",
+    "fig_tmc_runtime.pdf": "cbcb3c1f1514f400f00099272bb20bbebecb654d17abf49ad3e8930b0b2c72c9",
+    "fig_tmc_runtime.png": "ffd46380bfa33cda3726714dfc6c4a566cabb1b884de0d921a7d71a3f77edb66",
+    "fig_tmc_runtime.svg": "ecf3549f9131ccced3015b17a814e67ca973b501ff9a49ebf3437da3ec518105",
+    "fig_tmc_service_pareto.pdf": "b2bc01d7b1ba495add48e5a09aa276448ef295f1263c15df8c1f811b3c8f9200",
+    "fig_tmc_service_pareto.png": "b8899d7d79a00b81c71f6926faa371aa41d2a929fbb7f47eacc3d4c25a79f4f4",
+    "fig_tmc_service_pareto.svg": "f5247ee63dbc8fcbcd717e751316c35073e76382e49d0a88d64e17b149debb7b"
+  },
+  "input_sha256": {
+    "experiments/data/measured_a2g_urban_3p6ghz.xlsx": "19efd11676921eb115f16df4c18f78d54f13ce5a65876baefab37f204604c5d3"
+  },
+  "logical_processors": 16,
+  "numpy": "1.26.4",
+  "outputs": {
+    "measured_a2g_delayed_aoi_paired.csv": "3982d613d10c115cb9e04f371fa63549e7c1ecf5785f7130b60f860610f20b13",
+    "measured_a2g_delayed_aoi_seeds.csv": "61c77d1fc725f59a80f025ff088d9ce571a7244d0b49b417f6d33a383631bed1",
+    "measured_a2g_delayed_aoi_summary.csv": "d7311a7756698f7367ea689e967b0e1efa5401d8df22a2bdddb8d33463058c01",
+    "tmc_aoi_calibration_paired.csv": "e6d83f4ecb057ea1afa885de0adfdfbf498b1091f2f9fe9be7c8177b75a92f11",
+    "tmc_aoi_calibration_seeds.csv": "db1eb4054f237df4e50cdf04e3ec936004f9bae644292847b402ad23e6d7d1fe",
+    "tmc_aoi_calibration_summary.csv": "135609ecd29cee688747b11f08d2efc1887d76c54430a4bde6d51514ff53168c",
+    "tmc_extended/derived/tmc_advanced_baseline_effects.csv": "c5569d01c482357e2ce7e2a837f458d5ebd68dfefbd20fa70fab3465d12023ed",
+    "tmc_extended/derived/tmc_advanced_baseline_pareto.csv": "fd149e0d94561d7035679d3f9479f257e1c5d8f9db8289853af0747997eaab8f",
+    "tmc_extended/derived/tmc_advanced_factorial_contrasts_seeds.csv": "7e96a66abe08136896da25b90d458fc927a3d84439ac6c0d0f66cac3a1e0bc2e",
+    "tmc_extended/derived/tmc_advanced_factorial_contrasts_summary.csv": "849d4a41b24179d8985ca46e1d2d11b2ad4e559df70c883f7eb52ede9ec02f4e",
+    "tmc_extended/derived/tmc_advanced_measured_effects_seeds.csv": "6481950d33fec246388ecf67142180e717be3038f6ddb656c0d67316d485e73e",
+    "tmc_extended/derived/tmc_advanced_qcap_summary.csv": "81832c6c836061cf6001f95c4010e5feb7d2e744873af4ad008a5cdeb751dece",
+    "tmc_extended/derived/tmc_advanced_rank_stability.csv": "3ca6c33f03cb0e8425d67df4918328b4fd3212cead1e74bb452ca193e8b0706b",
+    "tmc_extended/derived/tmc_advanced_runtime_focus.csv": "d290654d62c4629cf6adc94e05741734deb985f8276c7b37cabe818108b3becc",
+    "tmc_extended/derived/tmc_advanced_shield_tradeoff.csv": "a4e5670ca15ceadbbd98da5e8d7d98bdc0c27b54f3805cfc85f90bcfba6cbe77",
+    "tmc_extended/derived/tmc_advanced_shift_summary.csv": "6f458d554b3909f1fd1bba913d670901a1b6b1fa0e8c2826fcd89016f0f6ac16",
+    "tmc_extended/derived/tmc_extended_uav_long.csv": "58b55fc0b207c490378357b6c22072ab1b912f516648ec3cbed81fca83c7d007",
+    "tmc_extended/derived/tmc_v3_calibration_effects_seeds.csv": "87e51e0a5377a968736c01448effa2f43c826a9f56e4546addbdfd36fcbbee1d",
+    "tmc_extended/derived/tmc_v3_calibration_effects_summary.csv": "f038eb359ca45d88d584896f8def10209d0fab2f592b5fb6f50fe511741600b5",
+    "tmc_extended/derived/tmc_v3_factorial_multimetric_effects_seeds.csv": "395694885f35a74824cd36e969e9e507579bae938d81bcb95840893f9e2a805f",
+    "tmc_extended/derived/tmc_v3_factorial_multimetric_effects_summary.csv": "d8b9c189e1e143be38e1ce1e63f13412ae13f4a81648364c52df678f3706e4bb",
+    "tmc_extended/derived/tmc_v3_measured_multimetric_effects_seeds.csv": "e48b68f77dbd3b1a263e1b27abecb0ee79e2ea439bf002d408495c2ec3ddc180",
+    "tmc_extended/derived/tmc_v3_measured_multimetric_effects_summary.csv": "86a4f9f404381a3bdae29e54780dfaabcdc330b9aaf67d8eefbf7e82d72d25ab",
+    "tmc_extended/derived/tmc_v3_measured_relation_seeds.csv": "2e2a7709341c0e0cf07ab478112ad696a839f96f51591e7f63d46ce65fdbb855",
+    "tmc_extended/derived/tmc_v3_qcap_anchor_summary.csv": "0ddca643c8ce80d00b9507d1b4669149c478c11451aad00d8f4aca718c1886f6",
+    "tmc_extended/derived/tmc_v3_qcap_pressure_seeds.csv": "9135253e3146e62ba8545b842e4f40f10565d788ef6cb9b72c7857a80f840069",
+    "tmc_extended/derived/tmc_v3_qcap_pressure_summary.csv": "bb5ef0c821242e08ec8a68252fd80db26ae215cf4ab4f1e359459ca3e0ac6316",
+    "tmc_extended/derived/tmc_v3_qcap_tail_cells.csv": "86a4c7dcf9d6a7ed9895b756949b1be906ba6ba1628e1bafdbde183325fbf0af",
+    "tmc_extended/derived/tmc_v3_runtime_grid.csv": "93115a91355f82d7e93954c19d54b1db72204b8d6b64a0c30707905ecc5621ff",
+    "tmc_extended/derived/tmc_v3_shield_tradeoff_seeds.csv": "376e3f36f2c9d8d15b1cbf46298bf2f0d3e9d226a8b3670a6135f22655dd452a",
+    "tmc_extended/derived/tmc_v3_shift_differences.csv": "45362dc6412bff4add62bd41bdafca3ec731a7ad26cd432151b5360e22d5a016",
+    "tmc_extended/tmc_delayed_shift_seeds.csv": "61d61f3720c103f82372c5f461097de8feab83712a3d33ba7e5c74d1b900a693",
+    "tmc_extended/tmc_delayed_shift_summary.csv": "153cb30ea51719ce813cb1292a515e11272dd23170ffeaa4d5ff17690003656c",
+    "tmc_extended/tmc_extended_baselines_paired.csv": "a7f7544e7d3f37de322877d9e4c6693cf7c697d39dd7450fca9d1574b3d6a5ec",
+    "tmc_extended/tmc_extended_baselines_seeds.csv": "df922a640f84ef4f201c654e278c33ae4202d933697e14950adfd012b62c24d7",
+    "tmc_extended/tmc_extended_baselines_summary.csv": "c46371ed7c9e9524c3c7fa1341184d4b9eb151c9b666de288a93fab8f0caaaa2",
+    "tmc_extended/tmc_factorial_ablation_seeds.csv": "31f4561d8aeffafc172855dd9ba7c40bba4f7a1611cbc8f2c7a32f257dee2074",
+    "tmc_extended/tmc_factorial_ablation_summary.csv": "52fdcedb2c5ded4ca577fb4d1b827af717072d4dc3f6494b80f4567eb2e7ac4b",
+    "tmc_extended/tmc_qcap_service_seeds.csv": "5fa2cded205d28d66c4c86a4a4f4e6dd17b10122939f89cc756c0f629925b2c2",
+    "tmc_extended/tmc_qcap_service_summary.csv": "fb29fd6e9489d088aba8478b703256c98d9e5fb3d8a75990c74b933a21f7abc2",
+    "tmc_runtime_scaling.csv": "6e01eaca94d1457d018605d09028dbea75a59e522c4e845661867379d7ce19b0"
+  },
+  "pandas": "2.2.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "protocol": {
+    "common_policy_semantics": {
+      "individual_queue_update": "max(Q-pbar,0)+p",
+      "priority_success_probability": {
+        "applies_to": [
+          "FreshSky-Safe",
+          "Static-Geometry Safe",
+          "Known-Transition Safe",
+          "Conservative-AoI Safe",
+          "Ji'24-style Greedy-Safe",
+          "Zhao'25 MMSE-MW-Safe",
+          "Tripathi'24 Whittle-Safe",
+          "Zhu'26-style Aggregate-DPP",
+          "factorial FreshSky adaptations"
+        ],
+        "exceptions": {
+          "Max-Age-First Safe": "value-age score without q",
+          "Round-Robin Safe": "cyclic order without ranking",
+          "Wang'26 PORMAB-Safe": "transition/belief Whittle-like index"
+        },
+        "formula": "theta*phi_L+(1-theta)*phi_N"
+      }
+    },
+    "families": {
+      "baseline": {
+        "comparators": 10,
+        "individual_budget": 0.4,
+        "mean_nlos_dwell": 8.0,
+        "pending_feedback_slots": [
+          2,
+          4,
+          8
+        ],
+        "policies": 11,
+        "queue_cap": 24.0,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "slots": 4000,
+        "warmup_slots": 300,
+        "zhao25_adaptation": {
+          "beta_calibration": "Theorem-7 fixed beta from stationary geometry",
+          "common_additions": [
+            "posterior-predictive q_i(t)",
+            "individual Qmax shield"
+          ],
+          "event_weight_in_priority": false,
+          "forward_delivery_delay": 0,
+          "guarantee_boundary": "original asymptotic bound is not transferred",
+          "priority": "beta_i*q_i(t)*Ahat_i(t)",
+          "source_system_time": 0
+        }
+      },
+      "calibration": {
+        "individual_budget": 0.4,
+        "mean_nlos_dwells": [
+          2.0,
+          4.0,
+          8.0,
+          14.0
+        ],
+        "pending_feedback_slots": [
+          2,
+          4,
+          8
+        ],
+        "policies": [
+          "Expected-AoI Bayes-Safe",
+          "Conservative-AoI Bayes-Safe",
+          "Perfect-AoI Bayes-Safe"
+        ],
+        "queue_cap": 24.0,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "slots": 4000,
+        "warmup_slots": 300
+      },
+      "factorial": {
+        "design": "2x2x2 belief x age-estimator x shield",
+        "individual_budget": 0.4,
+        "mean_nlos_dwell": 8.0,
+        "pending_feedback_slots": [
+          4
+        ],
+        "queue_cap": 24.0,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "slots": 4000,
+        "warmup_slots": 300
+      },
+      "measured": {
+        "individual_budget": 0.4,
+        "pending_feedback_slots": [
+          4,
+          8
+        ],
+        "policies": [
+          "Expected-AoI Bayes-Safe",
+          "Conservative-AoI Bayes-Safe",
+          "Perfect-AoI Bayes-Safe"
+        ],
+        "power_quantiles": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "queue_cap": 24.0,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "slots": 5000,
+        "warmup_slots": 500
+      },
+      "qcap": {
+        "individual_budget": 0.4,
+        "mean_nlos_dwell": 8.0,
+        "pending_feedback_slots": [
+          4
+        ],
+        "queue_caps": [
+          4,
+          8,
+          12,
+          16,
+          24,
+          28,
+          32,
+          36,
+          48
+        ],
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "slots": 4000,
+        "warmup_slots": 300
+      },
+      "runtime": {
+        "deterministic_seed": "880000+1000*N+10*grid_size+d",
+        "fleet_sizes": [
+          12,
+          25,
+          50,
+          100,
+          200,
+          500
+        ],
+        "individual_budget": 0.4,
+        "pending_feedback_slots": [
+          0,
+          4,
+          8
+        ],
+        "queue_cap": 24.0,
+        "repeats": 1000,
+        "seeds": null,
+        "slots": null,
+        "transition_grid_sizes": [
+          6,
+          12,
+          20
+        ],
+        "warmup_iterations": 20
+      },
+      "shift": {
+        "individual_budget": 0.4,
+        "mean_nlos_dwell_post": 14.0,
+        "mean_nlos_dwell_pre": 2.0,
+        "pending_feedback_slots": [
+          4
+        ],
+        "policies": 4,
+        "queue_cap": 24.0,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "shift_slot": 2000,
+        "slots": 4000,
+        "warmup_slots": 300
+      }
+    },
+    "feedback_timing": {
+      "ack_generated_in_slot_j": "available before decision in slot j+d+1",
+      "meaning": "number of pending-feedback slots",
+      "parameter": "d"
+    },
+    "strict_common_random_numbers": {
+      "enabled": true,
+      "external_streams": [
+        "geometry",
+        "initial_state",
+        "acknowledgement",
+        "channel_transition",
+        "event_transition"
+      ]
+    }
+  },
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "row_counts": {
+    "measured_a2g_delayed_aoi_paired.csv": 6,
+    "measured_a2g_delayed_aoi_seeds.csv": 360,
+    "measured_a2g_delayed_aoi_summary.csv": 18,
+    "tmc_aoi_calibration_paired.csv": 12,
+    "tmc_aoi_calibration_seeds.csv": 360,
+    "tmc_aoi_calibration_summary.csv": 36,
+    "tmc_extended/derived/tmc_advanced_baseline_effects.csv": 30,
+    "tmc_extended/derived/tmc_advanced_baseline_pareto.csv": 8,
+    "tmc_extended/derived/tmc_advanced_factorial_contrasts_seeds.csv": 140,
+    "tmc_extended/derived/tmc_advanced_factorial_contrasts_summary.csv": 7,
+    "tmc_extended/derived/tmc_advanced_measured_effects_seeds.csv": 120,
+    "tmc_extended/derived/tmc_advanced_qcap_summary.csv": 9,
+    "tmc_extended/derived/tmc_advanced_rank_stability.csv": 200,
+    "tmc_extended/derived/tmc_advanced_runtime_focus.csv": 6,
+    "tmc_extended/derived/tmc_advanced_shield_tradeoff.csv": 4,
+    "tmc_extended/derived/tmc_advanced_shift_summary.csv": 4,
+    "tmc_extended/derived/tmc_extended_uav_long.csv": 7920,
+    "tmc_extended/derived/tmc_v3_calibration_effects_seeds.csv": 120,
+    "tmc_extended/derived/tmc_v3_calibration_effects_summary.csv": 12,
+    "tmc_extended/derived/tmc_v3_factorial_multimetric_effects_seeds.csv": 700,
+    "tmc_extended/derived/tmc_v3_factorial_multimetric_effects_summary.csv": 35,
+    "tmc_extended/derived/tmc_v3_measured_multimetric_effects_seeds.csv": 480,
+    "tmc_extended/derived/tmc_v3_measured_multimetric_effects_summary.csv": 24,
+    "tmc_extended/derived/tmc_v3_measured_relation_seeds.csv": 120,
+    "tmc_extended/derived/tmc_v3_qcap_anchor_summary.csv": 9,
+    "tmc_extended/derived/tmc_v3_qcap_pressure_seeds.csv": 180,
+    "tmc_extended/derived/tmc_v3_qcap_pressure_summary.csv": 9,
+    "tmc_extended/derived/tmc_v3_qcap_tail_cells.csv": 90,
+    "tmc_extended/derived/tmc_v3_runtime_grid.csv": 54,
+    "tmc_extended/derived/tmc_v3_shield_tradeoff_seeds.csv": 80,
+    "tmc_extended/derived/tmc_v3_shift_differences.csv": 6,
+    "tmc_extended/tmc_delayed_shift_seeds.csv": 80,
+    "tmc_extended/tmc_delayed_shift_summary.csv": 4,
+    "tmc_extended/tmc_extended_baselines_paired.csv": 30,
+    "tmc_extended/tmc_extended_baselines_seeds.csv": 660,
+    "tmc_extended/tmc_extended_baselines_summary.csv": 33,
+    "tmc_extended/tmc_factorial_ablation_seeds.csv": 160,
+    "tmc_extended/tmc_factorial_ablation_summary.csv": 8,
+    "tmc_extended/tmc_qcap_service_seeds.csv": 180,
+    "tmc_extended/tmc_qcap_service_summary.csv": 9,
+    "tmc_runtime_scaling.csv": 54
+  },
+  "source_sha256": {
+    "analysis/figure_baseline_v3.py": "593289e3dca60488fc6d53c255c9ec166d33d71a9037766ab4595df25522ebd6",
+    "analysis/figure_generation.py": "dc07c2b4b90ebcee169d38fa4b5cd44f6eb0535143705a4a07940eb7bd969d74",
+    "analysis/figure_generation_tmc_advanced.py": "4d8957f82be74b03640537a05bc3f7bd4416df97d99527ab49519bbeab143202",
+    "analysis/figure_panels_v3.py": "46ca28106130821378a4ad750e7402dc0c5c5460318db4162e851abcbc370880",
+    "analysis/figure_service_v3.py": "6a4004719ef230af200be11481d7cb9c368d5fdb67db947f5bcf9072a69c7d1e",
+    "bayes_hmm_delayed_ack.py": "b21a298ba7bbcfa3fa808e1d81f91be9dad0db17a1486f7b9c02bb0f47dd66c8",
+    "bayes_hmm_delayed_aoi_belief.py": "360f9cc8ad1678b0207e043ed0f571a0a9477ba2a9f2fa46f8cc7677fbb22870",
+    "bayes_hmm_experiment.py": "4dfa8d23d0df03992bdab6e132b5cd2918611ac0663ca4ed147745c1f0571ff0",
+    "bayes_hmm_grid_sensitivity.py": "60b14f48dacb53138657d9a8a22d084f875014d21671ff98fe09ba645185c158",
+    "belief_whittle.py": "5153ebc4dadaf8064efc33ca41a243a5438a23ddaac0daa395216c7fb15c7708",
+    "measured_a2g_replay.py": "535ee623fd42b7b940d19d4cf3ab6d0009a4c6762f45eb5bb21c38e06cb7347c",
+    "run_tmc_evidence.py": "c5913d1e47ee1ef89f2f0c29ff6931dfd2614e1eec650c423947fb849b57aaa1",
+    "test_zhao25_specialization.py": "60aae91b6855061a5ad1f97c279620fdd7bb6f698736b482bba3147ee13a9886",
+    "tmc_calibration_strict.py": "19a853f0971ad35341edb6c501c686bf76e488aa554f1037b35610a0ae197fcd",
+    "tmc_extended_evidence.py": "dffad4a6872df0c33daec631af6534dbde96e8d770d29391410f5ed49c06b960",
+    "tmc_measured_strict.py": "ca86c0822684e6e2803c70fbb5f759ab12e6dd06ce7bddd985957810d948f908",
+    "tmc_runtime_scaling.py": "a105314e0f9a6db9c9eb5aeb1851da23572387f0ceafe6d4c0fc1fa6d5939aa9",
+    "zhao25_baseline_fidelity.md": "6d230cebb8ab9f5b6f68ffe4c22f461e3c3784bf0d15b9c7f1ef8b2b1cdae819"
+  }
+}

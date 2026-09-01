@@ -1,0 +1,22 @@
+{
+  "brier_skill_dwell14_delay2_pct": 12.38801995452522,
+  "closed_loop_certificates": "540/540",
+  "measured_cir_sha256": "19efd11676921eb115f16df4c18f78d54f13ce5a65876baefab37f204604c5d3",
+  "measured_expected_age_gain_pct": [
+    7.784928797531333,
+    36.639155168643136
+  ],
+  "measured_replay_certificates": "360/360",
+  "queue_cap_atlas": {
+    "certificates": "180/180",
+    "settings": 9
+  },
+  "runtime_N500_K144_d8": {
+    "median_ms": 3.63995,
+    "state_mib": 1.150421142578125
+  },
+  "synthetic_expected_age_gain_pct": [
+    14.28175533388755,
+    40.89460014507564
+  ]
+}

@@ -1,0 +1,16 @@
+metric,delay,phase,method,mean,ci95,seeds
+brier,4,post_early,Bayesian ensemble,0.1872395589780064,0.007511927958756608,20
+brier,4,post_early,Fixed pre-shift law,0.1882511895176373,0.00755187586948321,20
+brier,4,post_early,Static geometry,0.18639308131152832,0.007703526768067547,20
+brier,4,post_late,Bayesian ensemble,0.1844160038535984,0.0076692083006409,20
+brier,4,post_late,Fixed pre-shift law,0.18886400484389437,0.007617947269129891,20
+brier,4,post_late,Static geometry,0.18708114789418812,0.0077434569014043775,20
+brier,4,pre,Bayesian ensemble,0.2001268938281116,0.006509999352630943,20
+brier,4,pre,Fixed pre-shift law,0.19675421576059376,0.006591232396101558,20
+brier,4,pre,Static geometry,0.19869690003418913,0.006704386238024082,20
+bayes_skill_vs_fixed_pct,4,post_early,Bayesian ensemble,0.5245023286799355,0.8491145979196699,20
+bayes_skill_vs_fixed_pct,4,post_late,Bayesian ensemble,2.368997006612293,0.5745327431569472,20
+bayes_skill_vs_fixed_pct,4,pre,Bayesian ensemble,-1.7287065127687267,0.14477619416560655,20
+posterior_correlation_mae,4,post_early,Bayesian ensemble,0.19680841538937002,0.009185986417000443,20
+posterior_correlation_mae,4,post_late,Bayesian ensemble,0.07901925115617373,0.008580997024412514,20
+posterior_correlation_mae,4,pre,Bayesian ensemble,0.5021408120310171,0.04477105765191811,20
