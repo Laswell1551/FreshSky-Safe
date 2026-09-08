@@ -63,14 +63,14 @@ def main() -> None:
     age_min = float(age.gain_vs_conservative_pct.min())
     age_max = float(age.gain_vs_conservative_pct.max())
     close("synthetic expected-age minimum", age_min, 14.28)
-    close("synthetic expected-age maximum", age_max, 40.89)
+    close("synthetic expected-age maximum", age_max, 41.28)
     checks["synthetic_expected_age_gain_pct"] = [age_min, age_max]
 
     measured = pd.read_csv(RESULTS / "measured_a2g_delayed_aoi_paired.csv")
     measured_min = float(measured.expected_gain_vs_conservative_pct.min())
     measured_max = float(measured.expected_gain_vs_conservative_pct.max())
-    close("measured expected-age minimum", measured_min, 7.78)
-    close("measured expected-age maximum", measured_max, 36.64)
+    close("measured expected-age minimum", measured_min, 8.04)
+    close("measured expected-age maximum", measured_max, 36.89)
     measured_seeds = pd.read_csv(RESULTS / "measured_a2g_delayed_aoi_seeds.csv")
     if len(measured_seeds) != 360 or not measured_seeds.certificate_ok.astype(bool).all():
         raise AssertionError("measured-replay certificates are not 360/360")
@@ -88,7 +88,7 @@ def main() -> None:
         & (runtime.retained_models == 144)
         & (runtime.extra_delay == 8)
     ].iloc[0]
-    close("runtime median ms", point.total_median_us / 1000.0, 3.64)
+    close("runtime median ms", point.total_median_us / 1000.0, 3.467)
     close("state memory MiB", point.total_memory_kib / 1024.0, 1.15)
     checks["runtime_N500_K144_d8"] = {
         "median_ms": float(point.total_median_us / 1000.0),

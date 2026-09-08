@@ -87,10 +87,8 @@ def run_one(policy_class, cfg, extra_delay, seed):
         success_prob_history.append(predicted_success)
 
         policy.update(energy)
-        actual_age = np.where(
-            ack, 1.0, np.minimum(actual_age + 1.0, cfg.Amax)
-        )
-        conservative_age = np.minimum(conservative_age + 1.0, cfg.Amax)
+        actual_age = np.where(ack, 1.0, actual_age + 1.0)
+        conservative_age = conservative_age + 1.0
         queue = np.maximum(queue - cfg.pbar, 0.0) + energy
         queue_max = np.maximum(queue_max, queue)
 

@@ -233,6 +233,8 @@ def build_policy_classes(B, E, D):
             if self.shielded:
                 next_q = np.maximum(queue - cfg.pbar, 0.0) + pth
                 feasible = next_q <= self.qcap + 1e-12
+                # Rejection is diagnosed on the initial top-M list, whereas
+                # selection filters every candidate and backfills to M.
                 self.last_rejected = int(
                     sum(not bool(feasible[n]) for n in proposed)
                 )
@@ -646,10 +648,8 @@ def run_one(B, E, A, policy_class, cfg, extra_delay, seed):
         success_prob_history.append(predicted_success)
 
         policy.update(energy)
-        actual_age = np.where(
-            ack, 1.0, np.minimum(actual_age + 1.0, cfg.Amax)
-        )
-        conservative_age = np.minimum(conservative_age + 1.0, cfg.Amax)
+        actual_age = np.where(ack, 1.0, actual_age + 1.0)
+        conservative_age = conservative_age + 1.0
         queue = np.maximum(queue - cfg.pbar, 0.0) + energy
         queue_max = np.maximum(queue_max, queue)
 
@@ -803,10 +803,8 @@ def run_shift_one(
         ack_history.append(ack)
         success_prob_history.append(predicted_success)
         policy.update(energy)
-        actual_age = np.where(
-            ack, 1.0, np.minimum(actual_age + 1.0, cfg.Amax)
-        )
-        conservative_age = np.minimum(conservative_age + 1.0, cfg.Amax)
+        actual_age = np.where(ack, 1.0, actual_age + 1.0)
+        conservative_age = conservative_age + 1.0
         queue = np.maximum(queue - cfg.pbar, 0.0) + energy
         queue_max = np.maximum(queue_max, queue)
 

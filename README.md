@@ -23,9 +23,17 @@ The artifact implements and validates the complete FreshSky-Safe workflow:
 - powered dwell-delay, calibration, abrupt-shift, measured-replay, factorial,
   service-atlas, and runtime/memory experiments; and
 - common-random-number pairing and seed-level confidence intervals.
+- five-point sensitivity audits for the priority weight (V) and forgetting
+  factor (f) under delayed expected-AoI control.
 
 Each manuscript-facing numerical claim is linked to committed seed-level data
-and checked by `verify_claims.py`.
+and checked by the numerical claim gate.
+
+Receiver AoI is simulated without saturation; the implementation field
+`Amax` only allocates finite-run histogram support. The shield filters all
+positive-score candidates and backfills from the ranked list after a cap
+rejection, so feasible sub-bands are not left idle solely because an initial
+top-M proposal was rejected.
 
 ## Directory map
 
@@ -117,6 +125,7 @@ are committed in the scripts.
 | Recent baselines and factorial attribution | `experiments/tmc_extended_evidence.py` | `experiments/results/tmc_extended/` |
 | Measured urban A2G replay | `experiments/tmc_measured_strict.py` | `experiments/results/measured_a2g_delayed_aoi_*.csv` |
 | Queue-cap service atlas | `experiments/tmc_extended_evidence.py` | `experiments/results/tmc_extended/tmc_qcap_service_*.csv` |
+| Priority/forgetting sensitivity | `experiments/tmc_parameter_sensitivity.py` | `experiments/results/tmc_parameter_sensitivity_*.csv` |
 | Runtime/memory envelope | `experiments/tmc_runtime_scaling.py` | `experiments/results/tmc_runtime_scaling.csv` |
 | Headline numerical gate | `verify_claims.py` | `verification/claim_check_report.json` |
 

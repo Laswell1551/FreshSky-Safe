@@ -57,7 +57,7 @@ def run_one(policy, cfg, seed):
             pol.update(energy)
         if hasattr(pol, "observe_feedback"):
             pol.observe_feedback(attempted, ack)
-        age = np.where(ack, 1.0, np.minimum(age + 1.0, cfg.Amax))
+        age = np.where(ack, 1.0, age + 1.0)
         queue = np.maximum(queue - cfg.pbar, 0.0) + energy
         queue_max = np.maximum(queue_max, queue)
         p_ack = oracle_belief * B.PHI_LOS + (1.0 - oracle_belief) * B.PHI_NLOS

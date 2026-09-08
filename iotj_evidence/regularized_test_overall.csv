@@ -1,2 +1,2 @@
 chosen_alpha,cells_per_seed,independent_seeds,chosen_skill_vs_static_pct,chosen_skill_vs_static_pct_ci95,chosen_gain_vs_unregularized_pct,chosen_gain_vs_unregularized_pct_ci95
-0.1,9,20,0.01621731903619912,0.3076895855747295,1.2306008247573779,0.3684148507359058
+0.1,9,20,0.07556534914971696,0.3190691929960693,1.396536002328105,0.4904447215807826

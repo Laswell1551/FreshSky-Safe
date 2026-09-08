@@ -142,6 +142,9 @@ class BayesAggregateDPP(BayesFreshSky):
 
 def clone_cfg(**kwargs):
     cfg = B.clone(B.Cfg(), **kwargs)
+    # AoI is unsaturated.  Amax only allocates finite-run histogram support.
+    if "Amax" not in kwargs:
+        cfg.Amax = int(cfg.T) + 1
     return cfg
 
 
@@ -187,7 +190,7 @@ def run_detailed(policy, cfg, seeds=(0, 1, 2, 3, 4)):
                 pol.update(energy)
             if hasattr(pol, "observe_feedback"):
                 pol.observe_feedback(attempted, ack)
-            age = np.where(ack, 1.0, np.minimum(age + 1.0, cfg.Amax))
+            age = np.where(ack, 1.0, age + 1.0)
             queue = np.maximum(queue - cfg.pbar, 0.0) + energy
             queue_max = np.maximum(queue_max, queue)
             cumulative_surplus += energy - cfg.pbar

@@ -97,7 +97,7 @@ def run_one(policy_spec, cfg, good, p_ll, p_nl, seed):
         if hasattr(policy, "observe_feedback"):
             policy.observe_feedback(attempted, ack)
 
-        age = np.where(ack, 1.0, np.minimum(age + 1.0, cfg.Amax))
+        age = np.where(ack, 1.0, age + 1.0)
         queue = np.maximum(queue - cfg.pbar, 0.0) + energy
         queue_max = np.maximum(queue_max, queue)
 

@@ -181,10 +181,8 @@ def run_one(policy_class, cfg, extra_delay, seed):
         ack_history.append(ack)
 
         policy.update(energy)
-        actual_age = np.where(
-            ack, 1.0, np.minimum(actual_age + 1.0, cfg.Amax)
-        )
-        scheduler_age = np.minimum(scheduler_age + 1.0, cfg.Amax)
+        actual_age = np.where(ack, 1.0, actual_age + 1.0)
+        scheduler_age = scheduler_age + 1.0
         queue = np.maximum(queue - cfg.pbar, 0.0) + energy
         queue_max = np.maximum(queue_max, queue)
 

@@ -24,7 +24,8 @@ class Cfg:
     N=12; M=3; T=4000; warmup=300
     mean_dwell=8.0                            # mean NLoS dwell (correlation knob)
     wev=5.0; p_event=0.08; ev_off=1/25
-    Amax=120; V=6.0; pbar=1.6                  # per-UAV avg power budget (mW)
+    # Finite-run histogram support, not an AoI saturation threshold.
+    Amax=4001; V=6.0; pbar=1.6                 # per-UAV avg power budget (mW)
 
 def geometry(cfg, rng):
     r=rng.uniform(60,380,cfg.N); d=np.sqrt(H**2+r**2)
@@ -59,7 +60,7 @@ def run(policy, cfg, seeds=(0,1,2,3,4), genie=False, details=False):
             if hasattr(pol,'update'): pol.update(e)
             if hasattr(pol,'observe_feedback'):
                 pol.observe_feedback(attempted,ack)
-            A=np.where(ack,1.0,np.minimum(A+1,cfg.Amax))
+            A=np.where(ack,1.0,A+1)
             Q=np.maximum(Q-cfg.pbar,0.0)+e
             # Bayesian belief update then propagate through GE chain
             post=th.copy()

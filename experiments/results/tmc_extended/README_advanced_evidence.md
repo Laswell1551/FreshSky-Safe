@@ -21,25 +21,26 @@ one directory above after synchronization to `experiments/results/`.
 
 ## Headline findings
 
-- FreshSky W-AoI is 436.084, 445.082, and 454.274 at pending-feedback delays
+- FreshSky W-AoI is 437.462, 447.694, and 453.863 at pending-feedback delays
   2, 4, and 8.
 - Zhao'25 MMSE-MW-Safe is unresolved against FreshSky at delay 2, then lowers
-  W-AoI by 8.001 slots [1.00, 15.00] and 15.307 slots [9.48, 21.14] at
+  W-AoI by 8.12 and 12.55 slots at delays 4 and 8 (the delay-8 paired
+  interval excludes zero). Its fixed Theorem-7 beta, posterior-predictive success
   delays 4 and 8. Its fixed Theorem-7 beta, posterior-predictive success
   adaptation, and common shield are documented in
   `experiments/zhao25_baseline_fidelity.md`.
 - Wang'26 PORMAB-Safe and Tripathi'24 Whittle-Safe are unresolved against
-  FreshSky at delays 2 and 4, and outperform it by 4.00% and 3.88% at delay 8.
+  FreshSky at delays 2 and 4, and outperform it by 3.55% and 3.34% at delay 8.
 - Relative to the different-contract Zhu'26 aggregate-DPP point, FreshSky pays a
-  7.43--8.28% W-AoI cost, reduces maximum individual power by
-  28.28--29.65%, and changes certification from 0/20 to 20/20.
-- The expected-age factorial effect is -174.652 slots. The shield adds 6.961
-  slots while saving 0.00900 mW in maximum individual power.
-- Raising the queue cap from 4 to 48 reduces endpoint W-AoI by 5.21% and
-  candidate rejection from 34.17% to 0.64%, but the best observed mean W-AoI
+  6.80--8.75% W-AoI cost, reduces maximum individual power by
+  28.86--30.31%, and changes certification from 0/20 to 20/20.
+- The expected-age factorial effect is -33.68% ± 2.11% of the seed grand mean.
+  The shield adds 8.37 slots while saving 0.00902 mW in maximum individual power.
+- Raising the queue cap from 4 to 48 reduces endpoint W-AoI by 5.42% and
+  candidate rejection from 34.13% to 0.65%, but the best observed mean W-AoI
   occurs at cap 36 and starvation p95 worsens.
 - Under the tested abrupt dwell shift, the static control beats FreshSky
-  post-shift by 14.437 slots (2.75%).
+  post-shift by 13.681 slots (2.59%).
 
 ## v3 figure evidence
 
