@@ -190,7 +190,7 @@ def load_data(data_root: Path):
 
 
 def shift_differences(shift: pd.DataFrame) -> pd.DataFrame:
-    """Paired FreshSky-minus-comparator pre/post W-AoI differences."""
+    """Paired comparator-minus-FreshSky pre/post W-AoI improvements."""
     ours_name = "FreshSky-Safe"
     comparators = [
         "Ji'24-style Greedy-Safe",
@@ -203,7 +203,7 @@ def shift_differences(shift: pd.DataFrame) -> pd.DataFrame:
         other = shift[shift["policy"].eq(comparator)].set_index("seed")
         seeds = ours.index.intersection(other.index)
         for phase, column in (("pre", "pre_wAoI"), ("post", "post_wAoI")):
-            delta = ours.loc[seeds, column] - other.loc[seeds, column]
+            delta = other.loc[seeds, column] - ours.loc[seeds, column]
             mean, half = mean_ci(delta)
             rows.append(
                 {
@@ -631,10 +631,11 @@ def draw_shift_forest(ax: plt.Axes, shift_summary: pd.DataFrame) -> None:
             + shift_summary["ci95_halfwidth"]
         )
     )
-    xmin = min(-16.0, math.floor(low / 5.0) * 5.0 - 2.0)
-    xmax = max(58.0, math.ceil(high / 5.0) * 5.0 + 5.0)
-    ax.axvspan(xmin, 0, color="#EDF6FB", zorder=0)
-    ax.axvspan(0, xmax, color="#FFF3EC", zorder=0)
+    pad = max(4.0, 0.08 * (high - low))
+    xmin = math.floor((low - pad) / 5.0) * 5.0
+    xmax = math.ceil((high + pad) / 5.0) * 5.0
+    ax.axvspan(xmin, 0, color="#FFF3EC", zorder=0)
+    ax.axvspan(0, xmax, color="#EDF6FB", zorder=0)
     ax.axvline(0, color=BLACK, linestyle="--", linewidth=0.7, zorder=1)
 
     for policy in order:
@@ -684,27 +685,25 @@ def draw_shift_forest(ax: plt.Axes, shift_summary: pd.DataFrame) -> None:
         label.set_color(COLORS[policy])
         if policy == "Zhu'26-style Aggregate-DPP":
             label.set_fontweight("bold")
-    ax.set_xlabel(
-        r"paired $\Delta$ W-AoI = FreshSky $-$ comparator (slots)"
-    )
+    ax.set_xlabel("paired comparator $-$ FreshSky W-AoI (slots)")
     style_axis(ax, "x")
     ax.text(
         0.01,
         0.98,
-        "FreshSky better",
+        "FreshSky worse",
         transform=ax.transAxes,
         fontsize=4.5,
-        color=BLUE,
+        color=VERMILLION,
         ha="left",
         va="top",
     )
     ax.text(
         0.99,
         0.98,
-        "FreshSky worse",
+        "FreshSky better",
         transform=ax.transAxes,
         fontsize=4.5,
-        color=VERMILLION,
+        color=BLUE,
         ha="right",
         va="top",
     )
@@ -869,7 +868,7 @@ def main() -> None:
     print("Saved:")
     for suffix in (".pdf", ".svg", ".png"):
         print(args.outdir / f"fig4_v3{suffix}")
-    print("\nShift boundary (FreshSky - comparator, slots):")
+    print("\nShift boundary (comparator - FreshSky, slots):")
     print(
         shift_summary[
             [
